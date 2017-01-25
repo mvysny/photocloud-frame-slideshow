@@ -15,6 +15,8 @@ Supported photo streams:
 - 500px
 - Instagram
 
+Please download the PhotoCloud application at Google Play at https://play.google.com/store/apps/details?id=sk.baka.photoframe
+
 Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 

@@ -39,3 +39,9 @@ No annoying video commercials, simple to use. This application is at its infancy
 PhotoCloud Frame Slideshow remembers your username/password only for certain services which do not support security tokens (for example Samba and OwnCloud). PhotoCloud never sends your data anywhere else but the stream server itself, solely for the purpose of authenticating and downloading images. Images are downloaded to your phone only, they are never uploaded anywhere. The images are cached for quicker display, you can delete the caches at any time.
 
 PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the sole purpose of helping bug fixing. Those error messages never contain any username nor password. Other than that, PhotoCloud uploads nothing nowhere else, except for the sole purpose of downloading images (you have to let the server know that you wish to download given image) :-D
+
+# Links
+
+* Discussions forums: https://groups.google.com/forum/#!forum/photocloud-frame
+* Bugs, issues, feature requests: https://github.com/mvysny/photocloud-frame-slideshow/issues
+* Contact author at: photocloud-frame@googlegroups.com

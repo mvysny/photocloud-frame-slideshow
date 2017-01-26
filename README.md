@@ -13,7 +13,7 @@ Supported photo streams:
 - Windows Shares (Samba)
 - Mega
 - 500px
-- Instagram
+- Instagram (Instagram removed the Feed API thus only the Recent Media is accessible)
 
 Please download the PhotoCloud application at Google Play at https://play.google.com/store/apps/details?id=sk.baka.photoframe
 

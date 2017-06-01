@@ -1,11 +1,12 @@
 photocloud-frame-slideshow
 # PhotoCloud Frame Slideshow
 
-Just sit back and watch your photos with your family; convert your old tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud servers, with self-signed https certificates.
+Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
 
 Supported photo streams:
 
-- Files stored on any OwnCloud server, even with self-signed https certificate
+Supported photo streams:
+- Files stored on any OwnCloud/NextCloud server, even with self-signed https certificate
 - Files stored in your Dropbox account
 - Local Gallery
 - Flickr
@@ -14,6 +15,8 @@ Supported photo streams:
 - Mega
 - 500px
 - Instagram (Instagram removed the Feed API thus only the Recent Media is accessible)
+- SSH and SFTP
+- DLNA/UPNP
 
 Please download the PhotoCloud application at Google Play at https://play.google.com/store/apps/details?id=sk.baka.photoframe
 

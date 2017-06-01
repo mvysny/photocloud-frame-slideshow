@@ -35,7 +35,7 @@ Because of its nature, the application generates a very high network traffic - p
 No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement. The following features are planned:
 
 1. Each directory will be able to be configured with a daily hour range at which the directory is polled for photos - you can create a daily gallery, an evening gallery, even a night gallery.
-2. Add support for Google Picasa, Facebook, FTP, SFTP, SCP, ...
+2. Add support for Google Picasa, Facebook, FTP, ...
 
 # Privacy Policy
 

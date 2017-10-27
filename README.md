@@ -35,10 +35,7 @@ This is just a digital frame / photo browser. It does not play any music, does n
 
 Because of its nature, the application generates a very high network traffic - please make sure you have WIFI enabled. The app has built-in network protection and will abort the Slideshow if WIFI disconnects.
 
-No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement. The following features are planned:
-
-1. Each directory will be able to be configured with a daily hour range at which the directory is polled for photos - you can create a daily gallery, an evening gallery, even a night gallery.
-2. Add support for Google Picasa, Facebook, Google plus, ...
+No annoying video commercials, simple to use. This application is at its infancy, please [let me know which features would you like me to implement](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 
 # Privacy Policy
 

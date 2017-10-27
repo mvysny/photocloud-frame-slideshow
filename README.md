@@ -69,7 +69,8 @@ The upper bar shows the following action buttons:
   the Chromecast button is only visible when your phone actually sees the Chromecast device (the Chromecast device is on
   and the phone is connected to the same wifi as the Chromecast device itself). **Note**: the Chromecast connectivity
   and the Chromecast button visibility is completely in control of Google's code - the PhotoCloud app can not show/hide the button
-  itself. If the button is hidden even though Chromecast is on, then please report the bug to Google.
+  itself. If the button is hidden even though Chromecast is on, then there is nothing I can do.
+  Please report a bug to Google guys.
 
 The lower bar with the up-arrow will reveal the detailed EXIF data upon touch.
 
@@ -99,4 +100,14 @@ to start slideshow from all of those streams.
 ### Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.
+
+### Settings
+
+Touch the upper-right cog wheel *Settings* button in the main screen. You can for example configure to
+start slideshow from a Stream (or a combination of Streams)
+
+* When your device boots;
+* When your power cable is plugged in;
+
+And others.
  

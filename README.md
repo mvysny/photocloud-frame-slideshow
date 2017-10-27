@@ -4,8 +4,6 @@ photocloud-frame-slideshow
 Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
 
 Supported photo streams:
-
-Supported photo streams:
 - Files stored on any OwnCloud/NextCloud server, even with self-signed https certificate
 - Files stored in your Dropbox account
 - Local Gallery
@@ -60,7 +58,7 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 
 When you start the slideshow, just touch the image, to pause the slideshow and to reveal more controls:
 
-![images/chromecast.jpg](Chromecast)
+![Chromecast](images/chromecast.jpg)
 
 The upper bar shows the following action buttons:
 
@@ -72,6 +70,8 @@ The upper bar shows the following action buttons:
   and the phone is connected to the same wifi as the Chromecast device itself). **Note**: the Chromecast connectivity
   and the Chromecast button visibility is completely in control of Google's code - the PhotoCloud app can not show/hide the button
   itself. If the button is hidden even though Chromecast is on, then please report the bug to Google.
+
+The lower bar with the up-arrow will reveal the detailed EXIF data upon touch.
 
 ### Slideshow from a subfolder
 
@@ -90,7 +90,13 @@ There are two ways to achieve this:
 
 Just touch the Stream icon, located to the left corner of the Stream card.
 
-![images/stream_cards.jpg](The main screen listing four stream cards)
+The main screen listing four stream cards:
+![The main screen listing four stream cards](images/stream_cards.jpg)
 
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.
+
+### Adding more Streams
+
+Open the main screen and touch the lower big white plus button. You will be able to add additional streams.
+ 

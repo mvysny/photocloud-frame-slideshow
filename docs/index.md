@@ -62,6 +62,18 @@ PhotoCloud Frame Slideshow remembers your username/password only for certain ser
 
 PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the sole purpose of helping bug fixing. Those error messages never contain any username nor password. Other than that, PhotoCloud uploads nothing nowhere else, except for the sole purpose of downloading images (you have to let the server know that you wish to download given image) :-D
 
+## Required permissions
+
+- `INTERNET` - to download photos from cloud services
+- `WRITE_EXTERNAL_STORAGE` - to workaround a bug in older Androids to cache photos
+- `GET_ACCOUNTS` - Google Drive and App Billing requires this
+- `BILLING` - In-app purchases
+- `ACCESS_NETWORK_STATE` - allows PhotoCloud to monitor for WiFi and stop slideshow to avoid cellular network charges
+- `RECEIVE_BOOT_COMPLETED` - to automatically start (if so configured)
+- `ACCESS_WIFI_STATE` - to discover DLNA devices
+- `CHANGE_WIFI_MULTICAST_STATE` - to discover DLNA devices
+- `WAKE_LOCK` - to keep the phone awake during slideshow
+
 # Links
 
 * [Discussions forums](https://groups.google.com/forum/#!forum/photocloud-frame)
@@ -71,3 +83,4 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 # FAQ
 
 Located here: [Frequently Asked Questions](faq.html)
+

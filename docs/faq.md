@@ -38,6 +38,7 @@ There are two ways to achieve this:
 Just touch the Stream icon, located to the left corner of the Stream card.
 
 The main screen listing four stream cards:
+
 <img src="images/stream_cards.jpg" width="180px">
 
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button

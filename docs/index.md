@@ -22,12 +22,16 @@ Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg
 - raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
 
+## Free Download At Google Play
+
 Please download the PhotoCloud application for free at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).
 
 Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 
 Supports ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV. Leanback/Android TV is not currently supported.
+
+## Pricing
 
 Pricing: free version shows a "please purchase" images once a while during the slideshow. There is an in-app payment which removes these images.
 Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher, don't purchase if you have Android 4.1 or lower.

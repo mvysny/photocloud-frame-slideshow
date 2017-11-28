@@ -24,8 +24,8 @@ Supported image types:
 
 ## Screenshots
 
-<img src="images/stream_cards.jpg" width="48">
-<img src="images/chromecast.jpg" width="48">
+<img src="images/stream_cards.jpg" width="100">
+<img src="images/chromecast.jpg" width="100">
 
 ## Free Download At Google Play
 
@@ -59,3 +59,7 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 * [Discussions forums](https://groups.google.com/forum/#!forum/photocloud-frame)
 * [Bugs, issues, feature requests](https://github.com/mvysny/photocloud-frame-slideshow/issues)
 * Contact author at: [photocloud-frame@googlegroups.com](photocloud-frame@googlegroups.com)
+
+# FAQ
+
+Located here: [faq.html]

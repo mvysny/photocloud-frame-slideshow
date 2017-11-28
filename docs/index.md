@@ -2,7 +2,8 @@
 
 Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
 
-Supports common cloud services. If you don't want to publish your sensitive photos on cloud, you can set up your own OwnCloud/NextCloud/SFTP server.
+Supports most common cloud services. However, if you don't want to share your sensitive photos on cloud, you can set up your own OwnCloud/NextCloud/SSH/SFTP server and
+stream the images from there.
 
 Supported photo streams:
 - Files stored on any OwnCloud/NextCloud server, even with self-signed https certificate

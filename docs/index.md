@@ -47,6 +47,6 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 
 # Links
 
-* Discussions forums: https://groups.google.com/forum/#!forum/photocloud-frame
-* Bugs, issues, feature requests: https://github.com/mvysny/photocloud-frame-slideshow/issues
-* Contact author at: photocloud-frame@googlegroups.com
+* [Discussions forums](https://groups.google.com/forum/#!forum/photocloud-frame)
+* [Bugs, issues, feature requests](https://github.com/mvysny/photocloud-frame-slideshow/issues)
+* Contact author at: [photocloud-frame@googlegroups.com](photocloud-frame@googlegroups.com)

@@ -24,10 +24,10 @@ Supported image types:
 
 ## Screenshots
 
-_ | _
------------- | -------------
-Welcome screen with the streams | A paused slideshow, showing EXIF and the location where the photo was taken
-<img src="images/stream_cards.jpg" width="180"> | <img src="images/slideshow_paused.jpg" width="180">
+Streams | Slideshow | Browser
+------------ | ------------- | -----
+Welcome screen with the streams | A paused slideshow, showing EXIF and the location where the photo was taken | You can browse the stream for photos and files
+<img src="images/stream_cards.jpg" width="180"> | <img src="images/slideshow_paused.jpg" width="180"> | <img src="images/browser.jpg" width="180">
 
 ## Free Download At Google Play
 

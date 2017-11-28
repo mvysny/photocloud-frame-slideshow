@@ -24,8 +24,10 @@ Supported image types:
 
 ## Screenshots
 
-<img src="images/stream_cards.jpg" width="180">
-<img src="images/chromecast.jpg" width="180">
+_ | _
+------------ | -------------
+Welcome screen with the streams | A paused slideshow, showing EXIF and the location where the photo was taken
+<img src="images/stream_cards.jpg" width="180"> | <img src="images/slideshow_paused.jpg" width="180">
 
 ## Free Download At Google Play
 

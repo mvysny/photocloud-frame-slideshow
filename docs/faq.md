@@ -4,7 +4,7 @@
 
 When you start the slideshow, just touch the image, to pause the slideshow and to reveal more controls:
 
-<img src="images/chromecast.jpg" width="180px">
+<a href="images/chromecast.jpg"><img src="images/chromecast.jpg" width="180px"></a>
 
 The upper bar shows the following action buttons:
 
@@ -39,7 +39,7 @@ Just touch the Stream icon, located to the left corner of the Stream card.
 
 The main screen listing four stream cards:
 
-<img src="images/stream_cards.jpg" width="180px">
+<a href="images/stream_cards.jpg"><img src="images/stream_cards.jpg" width="180px"></a>
 
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.

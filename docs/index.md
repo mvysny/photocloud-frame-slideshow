@@ -30,6 +30,11 @@ Streams | Slideshow | Browser
 Welcome screen with the streams | A paused slideshow, showing EXIF and the location where the photo was taken | You can browse the stream for photos and files
 <a href="images/stream_cards.jpg"><img src="images/stream_cards.jpg" width="180"></a> | <a href="images/slideshow_paused.jpg"><img src="images/slideshow_paused.jpg" width="180"></a> | <a href="images/browser.jpg"><img src="images/browser.jpg" width="180"></a>
 
+A short 3 minute introduction video:
+
+[![PhotoCloud Introduction Video](https://img.youtube.com/vi/k0XDCYmSRuk/0.jpg)](http://www.youtube.com/watch?v=k0XDCYmSRuk "PhotoCloud Intro Video")
+
+
 ## Free Download At Google Play
 
 Please download the PhotoCloud application for free at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).

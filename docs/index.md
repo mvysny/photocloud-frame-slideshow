@@ -62,4 +62,4 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 
 # FAQ
 
-Located here: [faq.html]
+Located here: [Frequently Asked Questions](faq.html)

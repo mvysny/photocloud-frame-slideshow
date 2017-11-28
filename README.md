@@ -1,13 +1,16 @@
 photocloud-frame-slideshow
-# PhotoCloud Frame Slideshow
+# PhotoCloud: Android Photo Frame
 
 Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
+
+Supports common cloud services. If you don't want to publish your sensitive photos on cloud, you can set up your own OwnCloud/NextCloud/SFTP server.
 
 Supported photo streams:
 - Files stored on any OwnCloud/NextCloud server, even with self-signed https certificate
 - Files stored in your Dropbox account
 - Local Gallery
 - Flickr
+- Google Drive
 - Microsoft OneDrive
 - Windows Shares (Samba)
 - Mega
@@ -20,15 +23,15 @@ Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg
 - raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
 
-Please download the PhotoCloud application at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).
+Please download the PhotoCloud application for free at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).
 
 Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 
 Supports ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV. Leanback/Android TV is not currently supported.
 
-Pricing: free version shows a "please purchase" images once a while during the slideshow. There is a single in-app payment which removes these images.
-Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher.
+Pricing: free version shows a "please purchase" images once a while during the slideshow. There is an in-app payment which removes these images.
+Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher, don't purchase if you have Android 4.1 or lower.
 
 Please note:
 This is just a digital frame / photo browser. It does not play any music, does not create videos, does not replace your gallery app, it does simply one thing - shows a slideshow of your photos - and does it simply and right.

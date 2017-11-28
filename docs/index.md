@@ -22,6 +22,11 @@ Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg
 - raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
 
+## Screenshots
+
+<img src="images/stream_cards.jpg" width="48">
+<img src="images/chromecast.jpg" width="48">
+
 ## Free Download At Google Play
 
 Please download the PhotoCloud application for free at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).

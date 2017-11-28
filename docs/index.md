@@ -24,8 +24,8 @@ Supported image types:
 
 ## Screenshots
 
-<img src="images/stream_cards.jpg" width="100">
-<img src="images/chromecast.jpg" width="100">
+<img src="images/stream_cards.jpg" width="180">
+<img src="images/chromecast.jpg" width="180">
 
 ## Free Download At Google Play
 

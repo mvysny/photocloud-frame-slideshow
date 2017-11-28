@@ -1,10 +1,10 @@
 # FAQ (Frequently Asked Questions)
 
-### ChromeCast icon not shown
+## ChromeCast icon not shown
 
 When you start the slideshow, just touch the image, to pause the slideshow and to reveal more controls:
 
-![Chromecast](images/chromecast.jpg)
+<img src="images/chromecast.jpg" width="180px">
 
 The upper bar shows the following action buttons:
 
@@ -20,7 +20,7 @@ The upper bar shows the following action buttons:
 
 The lower bar with the up-arrow will reveal the detailed EXIF data upon touch.
 
-### Slideshow from a subfolder
+## Slideshow from a subfolder
 
 There are two ways to achieve this:
 
@@ -33,21 +33,21 @@ There are two ways to achieve this:
   will only show this folder. You can add additional folders; slideshow will then show photos from all of these folders.
   The folders will be listed in the Stream Card; just press the blue trash bin icon to remove those folders.
 
-### Slideshow from multiple Streams
+## Slideshow from multiple Streams
 
 Just touch the Stream icon, located to the left corner of the Stream card.
 
 The main screen listing four stream cards:
-![The main screen listing four stream cards](images/stream_cards.jpg)
+<img src="images/stream_cards.jpg" width="180px">
 
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.
 
-### Adding more Streams
+## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.
 
-### Settings
+## Settings
 
 Touch the upper-right cog wheel *Settings* button in the main screen. You can for example configure to
 start slideshow from a Stream (or a combination of Streams)

@@ -42,7 +42,12 @@ Please download the PhotoCloud application for free at [Google Play](https://pla
 Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 
-Supports ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV. Leanback/Android TV is not currently supported.
+Supports:
+
+- ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone
+- Android TV - you can run this app straight on the TV and control it via the TV remote control
+
+Also supports Daydream (Android 4.2 and higher only).
 
 ## Pricing
 

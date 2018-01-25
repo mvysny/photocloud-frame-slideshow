@@ -6,18 +6,19 @@ Supports most common cloud services. However, if you don't want to share your se
 stream the images from there.
 
 Supported photo streams:
-- Files stored on any OwnCloud/NextCloud server, even with self-signed https certificate
-- Files stored in your Dropbox account
+- Files stored on any [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server, even with self-signed https certificate
+- Files stored in your [Dropbox](https://www.dropbox.com/) account
 - Local Gallery
-- Flickr
-- Google Drive
-- Microsoft OneDrive
+- [Flickr](https://www.flickr.com/)
+- [Google Drive](https://www.google.com/drive/)
+- [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
-- Mega
-- 500px
-- Instagram (Instagram removed the Feed API thus only the Recent Media is accessible)
+- [Mega](https://mega.nz/)
+- [500px](https://500px.com/) (both private and public streams)
+- [Instagram](https://www.instagram.com/) (only the Recent Media is accessible - the Feed API is not accessible)
 - SSH and SFTP
 - DLNA/UPNP
+- [Box: https://www.box.com/](https://www.box.com/)
 
 Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg
@@ -37,7 +38,7 @@ A short 3 minute introduction video:
 
 ## Free Download At Google Play
 
-Please download the PhotoCloud application for free at [Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).
+Please [download the PhotoCloud application at Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe) for free.
 
 Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
@@ -59,7 +60,7 @@ This is just a digital frame / photo browser. It does not play any music, does n
 
 Because of its nature, the application generates a very high network traffic - please make sure you have WIFI enabled. The app has built-in network protection and will abort the Slideshow if WIFI disconnects.
 
-No annoying video commercials, simple to use. This application is at its infancy, please [let me know which features would you like me to implement](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement, at the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 
 # Privacy Policy
 

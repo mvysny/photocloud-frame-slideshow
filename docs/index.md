@@ -1,15 +1,14 @@
-# PhotoCloud: Android Photo Frame
+# PhotoCloud
+
+Android Digital Frame App for Tablet, Phone and Android TV
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
 
 Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
 
-Supports most common cloud services. However, if you don't want to share your sensitive photos on cloud, you can set up your own OwnCloud/NextCloud/SSH/SFTP server and
-stream the images from there.
-
-Supported photo streams:
-- Files stored on any [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server, even with self-signed https certificate
-- Files stored in your [Dropbox](https://www.dropbox.com/) account
+Able to retrieve and slideshow photos from the following sources:
+- [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server, even with self-signed https certificate
+- [Dropbox](https://www.dropbox.com/)
 - Local Gallery
 - [Flickr](https://www.flickr.com/)
 - [Google Drive](https://www.google.com/drive/)
@@ -21,6 +20,8 @@ Supported photo streams:
 - SSH and SFTP
 - DLNA/UPNP
 - [Box: https://www.box.com/](https://www.box.com/)
+
+Respects user's privacy: PhotoCloud is the only Android Digital Frame application which supports your own personal OwnCloud/NextCloud servers (including self-signed https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
 
 Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg

@@ -47,10 +47,10 @@ to start slideshow from all of those streams.
 
 The Google Photos API is incredibly crappy and I've gave up on integrating with that. However, there is a workaround and it is in fact possible to see your photos!
 
-Simply [Configure your Google Photos to work with Google Drive](How Google Photos works with Google Drive):
+Simply [Configure your Google Photos to work with Google Drive](https://support.google.com/drive/answer/6156103):
 
 * First, turn on Google Drive integration at [https://photos.google.com/settings](https://photos.google.com/settings)
-* Second, open your Google Drive, Settings, Create a Google Photos folder, Done.
+* Second, open your [Google Drive](https://drive.google.com), Settings, Create a Google Photos folder, Done.
 * There is now a "Google Photos" folder under your "My Drive" folder which contains all of your photos.
 
 ## Adding more Streams

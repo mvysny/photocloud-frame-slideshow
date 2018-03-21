@@ -26,7 +26,6 @@ There are two ways to achieve this:
 
 * One-time: just touch the Stream card, to reveal the *Browse* button; then use the Browser to locate the directory.
   Long-touch the directory and select the *Slideshow* option. That will start slideshow from that folder only.
-  
 * By default, choosing the *Slideshow* from the Stream card menu will slideshow all photos in that Stream.
   To limit the slideshow to only particular subfolder, *Browse* the Stream and locate the directory.
   Then, long-touch the directory and select the *Root Stream Here* option. From now on, this Stream slideshows
@@ -43,6 +42,16 @@ The main screen listing four stream cards:
 
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.
+
+## Google Photos support
+
+The Google Photos API is incredibly crappy and I've gave up on integrating with that. However, there is a workaround and it is in fact possible to see your photos!
+
+Simply [Configure your Google Photos to work with Google Drive](How Google Photos works with Google Drive):
+
+* First, turn on Google Drive integration at [https://photos.google.com/settings](https://photos.google.com/settings)
+* Second, open your Google Drive, Settings, Create a Google Photos folder, Done.
+* There is now a "Google Photos" folder under your "My Drive" folder which contains all of your photos.
 
 ## Adding more Streams
 

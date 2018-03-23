@@ -45,7 +45,11 @@ to start slideshow from all of those streams.
 
 ## Google Photos support
 
-The Google Photos API is incredibly crappy and I've gave up on integrating with that. However, there is a workaround and it is in fact possible to see your photos!
+The Google Photos API is incredibly crappy and I've gave up on integrating with that. However, there is a workaround and it is in fact possible to see your photos,
+via Google Drive.
+
+> Note: When you click the "Google Photos" on your Google Drive, it may say that "Drive no longer includes a Google Photos view." That is not true, you can still see your photos
+in the Google Drive, but it will be attached underneath the "My Drive" folder. Just follow the tutorial below.
 
 Simply [Configure your Google Photos to work with Google Drive](https://support.google.com/drive/answer/6156103):
 

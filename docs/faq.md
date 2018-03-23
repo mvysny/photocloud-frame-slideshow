@@ -67,3 +67,17 @@ start slideshow from a Stream (or a combination of Streams)
 
 And others.
 
+## Launching PhotoCloud at boot-up time
+
+When configured, PhotoCloud is able start when your device boots up, turning your device into a photo frame.
+However this tends to be tricky, therefore please make sure to revisit all of the following
+items:
+
+1. In Settings / Slideshow, make sure that the "Auto-start Slideshow on Boot" is checked. Sometimes the Wifi may settle slowly, in that case please just check
+also the "Delay auto-start Slideshow on Boot" setting.
+2. You need to start the PhotoFrame app *at least once* by *touching* the PhotoCloud *launcher icon*, otherwise Android will not send the `RECEIVE_BOOT_COMPLETED` to the app
+and the app will not start. This is a built-in Android security measurement and there's nothing PhotoCloud can do.
+3. Please make sure that the `RECEIVE_BOOT_COMPLETED` permission is enabled for PhotoCloud and that your phone haven't accidentally removed that permission.
+Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
+tutorial to review the permissions.
+

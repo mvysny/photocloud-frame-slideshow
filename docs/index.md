@@ -19,7 +19,7 @@ Able to retrieve and slideshow photos from the following sources:
 - [Instagram](https://www.instagram.com/) (only the Recent Media is accessible - the Feed API is not accessible)
 - SSH and SFTP
 - DLNA/UPNP
-- [Box: https://www.box.com/](https://www.box.com/)
+- [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0 and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
 
 Respects user's privacy: PhotoCloud is the only Android Digital Frame application which supports your own personal OwnCloud/NextCloud servers (including self-signed https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
 

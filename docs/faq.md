@@ -85,3 +85,49 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
+## Reporting crashes
+
+PhotoCloud logs what it is doing, to a standard Android log. If PhotoCloud does not work properly or keeps crashing,
+please open a bug report at [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+During our conversation, I may ask for a log produced by PhotoCloud. Please follow the following steps to obtain the crash stack trace:
+* Generally follow the [How-to guide to debugging with Android logcat](https://logmatic.io/blog/a-how-to-guide-to-debugging-with-android-logcat/); the information below may be useful as well.
+* [Download Android SDK](http://developer.android.com/sdk/index.html#download), the `GET THE SDK FOR AN EXISTING IDE` link
+* [Enable debugging mode on your phone](http://www.wugfresh.com/faq/6/) or google for "android enable debug mode"
+* Connect your phone via the USB cable with your computer
+* Start the [device monitor](http://developer.android.com/tools/help/monitor.html)
+* Switch to the [DDMS perspective](http://developer.android.com/tools/debugging/ddms.html) - the logcat window is located at the bottom of the screen.
+
+**Caution**: the log may contain sensitive information such as phone numbers you have dialed etc. Make sure to paste only the stack trace into the Github issue,
+with sensitive info (file names) starred out. The most important part is the crash information itself, or an exception stack-trace as it is called. It looks like this:
+
+```
+E/AndroidRuntime: FATAL EXCEPTION: main
+                  Process: sk.baka.photoframe, PID: 11590
+                  java.lang.RuntimeException: Unable to instantiate application sk.baka.photoframe.App: java.lang.RuntimeException: Simulated
+                      at android.app.LoadedApk.makeApplication(LoadedApk.java:823)
+                      at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5522)
+                      at android.app.ActivityThread.-wrap2(ActivityThread.java)
+                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1576)
+                      at android.os.Handler.dispatchMessage(Handler.java:102)
+                      at android.os.Looper.loop(Looper.java:241)
+                      at android.app.ActivityThread.main(ActivityThread.java:6274)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+                   Caused by: java.lang.RuntimeException: Simulated
+                      at sk.baka.photoframe.App.<init>(App.java:71)
+                      at java.lang.Class.newInstance(Native Method)
+                      at android.app.Instrumentation.newApplication(Instrumentation.java:1008)
+                      at android.app.Instrumentation.newApplication(Instrumentation.java:993)
+                      at android.app.LoadedApk.makeApplication(LoadedApk.java:817)
+                      at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5522) 
+                      at android.app.ActivityThread.-wrap2(ActivityThread.java) 
+                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1576) 
+                      at android.os.Handler.dispatchMessage(Handler.java:102) 
+                      at android.os.Looper.loop(Looper.java:241) 
+                      at android.app.ActivityThread.main(ActivityThread.java:6274) 
+                      at java.lang.reflect.Method.invoke(Native Method) 
+                      at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886) 
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776) 
+```
+

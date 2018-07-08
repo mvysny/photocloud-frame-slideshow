@@ -131,3 +131,8 @@ E/AndroidRuntime: FATAL EXCEPTION: main
                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776) 
 ```
 
+## Streams which are no longer supported
+
+- [500px](https://500px.com/) because 500px shut down their API and the photos are no longer accessible.
+  See [bug 90](https://github.com/mvysny/photocloud-frame-slideshow/issues/90) for more details.
+

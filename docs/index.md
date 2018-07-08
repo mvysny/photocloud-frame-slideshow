@@ -15,7 +15,6 @@ Able to retrieve and slideshow photos from the following sources:
 - [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
 - [Mega](https://mega.nz/)
-- [500px](https://500px.com/) (both private and public streams)
 - [Instagram](https://www.instagram.com/) (only the Recent Media is accessible - the Feed API is not accessible)
 - SSH and SFTP
 - DLNA/UPNP

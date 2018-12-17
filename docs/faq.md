@@ -20,6 +20,33 @@ The upper bar shows the following action buttons:
 
 The lower bar with the up-arrow will reveal the detailed EXIF data upon touch.
 
+## Purchase not restored after reinstall
+
+The purchase is tied to your Google Play account. Therefore, you can factory-wipe your phone and reinstall it
+from scratch - as long as it's tied to your Google Play account the PhotoCloud should remain activated.
+
+There are two separate one-time purchases possible for this app:
+
+* The "Remove Nagging Screen" purchase which removes the "please purchase" nagging screen;
+* The "Daydream" support purchase which allows Photocloud to be registered as a Daydream service on your phone.
+
+The app should be automatically activated on all of your devices connected to the same Google account.
+You definitely do not need to purchase the app separately per device; a single purchase from one device should unlock the app on all devices connected to that Google account.
+
+Troubleshooting:
+
+* The nagging screen is still shown even though I've made the purchase. Please make sure that you've purchased the "Remove Nagging Screen" purchase -
+  purchasing the "Daydream" support won't make the nagging screen go away.
+* If the nagging screen still shows, maybe the purchase hasn't been registered
+  in PhotoCloud correctly - please try to reboot your phone.
+* To verify the purchase, launch PhotoCloud and go into the Settings. If the "Purchase" item is not there, then PhotoCloud knows you've done the
+  purchase and it is a bug if PhotoCloud still shows the nagging screen. In that case, please open
+  a bug report in the [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+* If the "Purchase" item is still in the Settings screen, then Google Play is errorneously informing PhotoCloud that the purchase
+  hasn't been completed. In this case the problem is in Google Play and/or Google internal systems,
+  and you need to contact the Google guys to verify that the purchase went through. They are paid 30% of the app price to solve your issues -
+  just go there and complain ;)
+
 ## Slideshow from a subfolder
 
 There are two ways to achieve this:

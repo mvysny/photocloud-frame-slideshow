@@ -163,3 +163,7 @@ E/AndroidRuntime: FATAL EXCEPTION: main
 - [500px](https://500px.com/) because 500px shut down their API and the photos are no longer accessible.
   See [bug 90](https://github.com/mvysny/photocloud-frame-slideshow/issues/90) for more details.
 
+## Known Issues With Certain Types of Streams
+
+- Flickr's API is broken and they don't care: [Flickr shows This Photo Is No Longer Available](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)
+

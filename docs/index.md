@@ -23,7 +23,7 @@ Able to retrieve and slideshow photos from the following sources:
 Respects user's privacy: PhotoCloud is the only Android Digital Frame application which supports your own personal OwnCloud/NextCloud servers (including self-signed https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
 
 Supported image types:
-- bitmap: png, gif, bmp, jpg, jpeg
+- bitmap: png, gif, bmp, jpg, jpeg, webp, heif (Android P only)
 - raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
 
 ## Screenshots

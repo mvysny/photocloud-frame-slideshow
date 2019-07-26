@@ -187,6 +187,8 @@ E/AndroidRuntime: FATAL EXCEPTION: main
 
 - [500px](https://500px.com/) because 500px shut down their API and the photos are no longer accessible.
   See [bug 90](https://github.com/mvysny/photocloud-frame-slideshow/issues/90) for more details.
+- Instagram because Instagram shut down their API and the photos are no longer accessible. The new so-called [Instagram Graph API](https://developers.facebook.com/docs/instagram-api)
+  is only available for Business or Creator accounts. See [bug 107](https://github.com/mvysny/photocloud-frame-slideshow/issues/107) for more details.
 
 ## Known Issues With Certain Types of Streams
 

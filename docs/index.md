@@ -15,7 +15,6 @@ Able to retrieve and slideshow photos from the following sources:
 - [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
 - [Mega](https://mega.nz/)
-- [Instagram](https://www.instagram.com/) (only the Recent Media is accessible - the Feed API is not accessible)
 - SSH and SFTP
 - DLNA/UPNP
 - [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0 and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))

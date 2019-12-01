@@ -161,6 +161,8 @@ During our conversation, I may ask for a log produced by PhotoCloud. Please foll
 * Connect your phone via the USB cable with your computer
 * Start the [device monitor](http://developer.android.com/tools/help/monitor.html)
 * Switch to the [DDMS perspective](http://developer.android.com/tools/debugging/ddms.html) - the logcat window is located at the bottom of the screen.
+* Alternatively you can use [android-log-viewer](https://bitbucket.org/mlopatkin/android-log-viewer/src/master/) to get the log
+  (requires Android SDK).
 
 **Caution**: the log may contain sensitive information such as phone numbers you have dialed etc. Make sure to paste only the stack trace into the Github issue,
 with sensitive info (file names) starred out. The most important part is the crash information itself, or an exception stack-trace as it is called. It looks like this:
@@ -195,6 +197,8 @@ E/AndroidRuntime: FATAL EXCEPTION: main
                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886) 
                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776) 
 ```
+
+You can easily find such exceptions simply by searching for `sk.baka.photoframe` throughout the log.
 
 ## Streams which are no longer supported
 

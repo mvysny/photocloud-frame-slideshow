@@ -211,3 +211,17 @@ You can easily find such exceptions simply by searching for `sk.baka.photoframe`
 
 - Flickr shows "This Photo Is No Longer Available". That's because Flickr's API is broken and they don't care: [Flickr shows This Photo Is No Longer Available](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)
 
+## Purchases Not Working On Certain TVs
+
+PhotoCloud uses Google Play one-time subscriptions. On certain Smart TVs the Google Play
+seems to be broken or doesn't work: I know of TCL Smart TVs not able to use subscriptions.
+There has been also this [TCL Smart TV Subscription Error Report](https://support.google.com/googleplay/forum/AAAA8CVOtD8hM4T3dJwNE8/?hl=en-GB)
+which suggests that the issue is not in PhotoCloud app itself, but rather in the Smart TV and/or
+Google Play.
+
+PhotoCloud should always report any payment error as an Android toast, and it should
+also report "In-app purchase service is not available on this device :(" if Google Play
+is non-functional or completely missing.
+
+Please make sure that you have the newest PhotoCloud installed (1.13.10 currently),
+since newer version may contain in-app-purchases fixes and workarounds.

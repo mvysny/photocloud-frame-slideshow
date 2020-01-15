@@ -112,19 +112,6 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
-## Supported Android Versions
-
-Newest PhotoCloud is only supported on Android 4.4 and higher (API level 19 and higher).
-However, there is an older version of PhotoCloud published on Google Play which also
-supports Android 4.1 (API level 16 and higher).
-
-Unfortunately, Androids 4.0 and lower are not officially supported at the moment.
-The reason for that is stated in [Issue #105](https://github.com/mvysny/photocloud-frame-slideshow/issues/105).
-
-There is an unofficial build which targets Android 4.0.3 and higher (API level 15 and higher).
-You can [get the APK from this link](https://www.baka.sk/images/photoframe-apk-googlePlay-release.apk),
-however parts of the app requiring higher Android will simply crash. Such crashes will not be fixed.
-
 ## Memory & Crashes
 
 Most often PhotoCloud crashes because Android doesn't give PhotoCloud enough memory to hold the images in. You can verify this, by going into `Settings` / `About`

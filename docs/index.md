@@ -49,7 +49,7 @@ Supports:
 - ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone
 - Android TV - you can run this app straight on the TV and control it via the TV remote control
 
-Also supports Daydream (Android 4.2 and higher only).
+Also supports Daydream (Android 4.2 and higher only). Please see below for supported Android versions.
 
 ## Pricing
 
@@ -80,6 +80,24 @@ PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the
 - `ACCESS_WIFI_STATE` - to discover DLNA devices
 - `CHANGE_WIFI_MULTICAST_STATE` - to discover DLNA devices
 - `WAKE_LOCK` - to keep the phone awake during slideshow
+
+# Devices Support
+
+Newest PhotoCloud is only supported on Android 4.4 and higher (API level 19 and higher).
+However, there is an older version of PhotoCloud published on Google Play which also
+supports Android 4.1 (API level 16 and higher).
+
+Unfortunately, Androids 4.0 and lower are not officially supported at the moment.
+The reason for that is stated in [Issue #105](https://github.com/mvysny/photocloud-frame-slideshow/issues/105).
+
+There is an unofficial build which targets Android 4.0.3 and higher (API level 15 and higher).
+You can [get the APK from this link](https://www.baka.sk/images/photoframe-apk-googlePlay-release.apk),
+however parts of the app requiring higher Android will simply crash. Such crashes will not be fixed.
+
+## Unsupported Devices
+
+It has been reported that [in-app payments on the Amazon Fire tablets with Google Play installed do not work](https://groups.google.com/forum/#!topic/photocloud-frame/YGF8EFPA3E4) -
+the payment goes through but the annoying "Please Purchase" image stays. Please do not use PhotoCloud's in-app purchases if you plan to use the app on the Amazon Fire tablet.
 
 # Links
 

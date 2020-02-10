@@ -25,6 +25,13 @@ Supported image types:
 - bitmap: png, gif, bmp, jpg, jpeg, webp, heif (Android P only)
 - raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
 
+Please note:
+This is just a digital frame / photo browser. It does not play any music, does not create videos, does not replace your gallery app, it does simply one thing - shows a slideshow of your photos - and does it simply and right.
+
+Because of its nature, the application generates a very high network traffic - please make sure you have WIFI enabled. The app has built-in network protection and will abort the Slideshow if WIFI disconnects.
+
+No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement, at the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+
 ## Screenshots
 
 Streams | Slideshow | Browser
@@ -56,12 +63,15 @@ Also supports Daydream (Android 4.2 and higher only). Please see below for suppo
 Pricing: free version shows a "please purchase" images once a while during the slideshow. There is an in-app payment which removes these images.
 Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher, don't purchase if you have Android 4.1 or lower.
 
-Please note:
-This is just a digital frame / photo browser. It does not play any music, does not create videos, does not replace your gallery app, it does simply one thing - shows a slideshow of your photos - and does it simply and right.
+The in-app purchases are located in PhotoCloud Settings - simply touch the appropriate item to launch Google Play purchase process.
+If the "Purchase" items are missing, it could be that the In-App Purchases API
+is not available on your device (for example Amazon Fire tablet with Google Play). To verify that, please open the About Dialog and scroll to the bottom: in the "System stats" Section there will be
+the "In-App Purchases API available:" line. If it says "false", then unfortunately the In-App Purchases API is not available on your device, which means two things:
 
-Because of its nature, the application generates a very high network traffic - please make sure you have WIFI enabled. The app has built-in network protection and will abort the Slideshow if WIFI disconnects.
+* You can't unlock the features of this app from such device;
+* Even if you use another device to purchase the features, these features still won't be unlocked on this device.
 
-No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement, at the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+In such case please don't use in-app purchases.
 
 # Privacy Policy
 

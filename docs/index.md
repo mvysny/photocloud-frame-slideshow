@@ -12,6 +12,7 @@ Able to retrieve and slideshow photos from the following sources:
 - Local Gallery
 - [Flickr](https://www.flickr.com/)
 - [Google Drive](https://www.google.com/drive/)
+- [Google Photos](https://photos.google.com/) (native support since 1.13.13)
 - [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
 - [Mega](https://mega.nz/)

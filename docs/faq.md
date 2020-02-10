@@ -72,17 +72,10 @@ to start slideshow from all of those streams.
 
 ## Google Photos support
 
-The Google Photos API is incredibly crappy and I've gave up on integrating with that. However, there is a workaround and it is in fact possible to see your photos,
-via Google Drive.
-
-> Note: When you click the "Google Photos" on your Google Drive, it may say that "Drive no longer includes a Google Photos view." That is not true, you can still see your photos
-in the Google Drive, but it will be attached underneath the "My Drive" folder. Just follow the tutorial below.
-
-Simply [Configure your Google Photos to work with Google Drive](https://support.google.com/drive/answer/6156103):
-
-* First, turn on Google Drive integration at [https://photos.google.com/settings](https://photos.google.com/settings)
-* Second, open your [Google Drive](https://drive.google.com), Settings, Create a Google Photos folder, Done.
-* There is now a "Google Photos" folder under your "My Drive" folder which contains all of your photos.
+I've managed to add a native support for Google Photos (since 1.13.13).
+The workaround of attaching your Google Photos into your Google Drive is no longer necessary.
+If you've previously used Google Drive, please remove the Google Drive stream and add the
+Google Photos stream.
 
 ## Adding more Streams
 

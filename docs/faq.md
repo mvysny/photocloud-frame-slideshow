@@ -39,13 +39,19 @@ Troubleshooting:
   purchasing the "Daydream" support won't make the nagging screen go away.
 * If the nagging screen still shows, maybe the purchase hasn't been registered
   in PhotoCloud correctly - please try to reboot your phone.
-* To verify the purchase, launch PhotoCloud and go into the Settings. If the "Purchase" item is not there, then PhotoCloud knows you've done the
+* To verify the purchase, launch PhotoCloud and go into the `Settings / About` and scroll
+  the About screen to the bottom:
+  * The "In-App Purchases API available" should be set to
+    "true" (if not, then Google Play is not available on your device)
+  * "Unlocked Nagging Dialog" should be set to "true". If not, then Google
+    Play is errorneously informing PhotoCloud that the purchase
+    hasn't been completed. In this case the problem is in Google Play and/or Google internal systems,
+    and you need to contact the Google guys to verify that the purchase went through.
+    They take 30% off of PhotoCloud price, and thus they are paid to solve such issues -
+    just go there and complain.
+* If the "Unlocked Nagging Dialog" is "true" then PhotoCloud knows you've done the
   purchase and it is a bug if PhotoCloud still shows the nagging screen. In that case, please open
   a bug report in the [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
-* If the "Purchase" item is still in the Settings screen, then Google Play is errorneously informing PhotoCloud that the purchase
-  hasn't been completed. In this case the problem is in Google Play and/or Google internal systems,
-  and you need to contact the Google guys to verify that the purchase went through. They are paid 30% of the app price to solve your issues -
-  just go there and complain ;)
 
 ## Slideshow from a subfolder
 
@@ -90,6 +96,17 @@ start slideshow from a Stream (or a combination of Streams)
 * When your power cable is plugged in;
 
 And others.
+
+### Removing All Widgets From The Slideshow
+
+To remove all widgets, please make sure all of the following settings are off:
+
+* Settings / Widgets/HUD / Show Clock
+* Settings / Widgets/HUD / Show Weather Forecast
+* Settings / Widgets/HUD / Show EXIF in Slideshow
+* Settings / Widgets/HUD / Show photo file name
+
+See [Issue 119](https://github.com/mvysny/photocloud-frame-slideshow/issues/119) for more details.
 
 ## Launching PhotoCloud at boot-up time
 

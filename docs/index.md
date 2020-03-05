@@ -4,10 +4,13 @@ Android Digital Frame App for Tablet, Phone and Android TV
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
 
-Just sit back and watch your photos with your family; convert your old Android tablet to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
+Just sit back and watch your photos with your family; convert your old Android tablet
+to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame
+application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
 
 Able to retrieve and slideshow photos from the following sources:
-- [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server, even with self-signed https certificate
+- [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server,
+  even with self-signed https certificate
 - [Dropbox](https://www.dropbox.com/)
 - Local Gallery
 - [Flickr](https://www.flickr.com/)
@@ -18,26 +21,39 @@ Able to retrieve and slideshow photos from the following sources:
 - [Mega](https://mega.nz/)
 - SSH and SFTP
 - DLNA/UPNP
-- [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0 and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
+- [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0
+  and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
 
-Respects user's privacy: PhotoCloud is the only Android Digital Frame application which supports your own personal OwnCloud/NextCloud servers (including self-signed https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
+Respects user's privacy: PhotoCloud is the only Android Digital Frame application
+which supports your own personal OwnCloud/NextCloud servers (including self-signed
+https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
 
 Supported image types:
-- bitmap: png, gif, bmp, jpg, jpeg, webp, heif (Android P only)
-- raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading RAWs will generate huge network traffic; just enable raws in app's Settings)
+- bitmap: png, gif, bmp, jpg, jpeg, webp
+- raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading
+  RAWs will generate huge network traffic; just enable raws in app's Settings)
+- heif, heic. Starting from Android 9 P, HEIF/HEIC is supported natively. For Android Lollypop and higher, PhotoCloud includes an experimental HEIF/HEIC decoder library
+  which you need to enable in Settings / Filters/Moments / Include HEIF/HEIC in Slideshow.
 
 Please note:
-This is just a digital frame / photo browser. It does not play any music, does not create videos, does not replace your gallery app, it does simply one thing - shows a slideshow of your photos - and does it simply and right.
+This is just a digital frame / photo browser. It does not play any music,
+does not create videos, does not replace your gallery app, it does simply one
+thing - shows a slideshow of your photos - and does it simply and right.
 
-Because of its nature, the application generates a very high network traffic - please make sure you have WIFI enabled. The app has built-in network protection and will abort the Slideshow if WIFI disconnects.
+Because of its nature, the application generates a very high network traffic -
+please make sure you have WIFI enabled. The app has built-in network protection
+and will abort the Slideshow if WIFI disconnects.
 
-No annoying video commercials, simple to use. This application is at its infancy, please let me know which features would you like me to implement, at the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+No annoying video commercials, simple to use. This application is at its infancy,
+please let me know which features would you like me to implement, at
+the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 
 ## Screenshots
 
 Streams | Slideshow | Browser
 ------------ | ------------- | -----
-Welcome screen with the streams | A paused slideshow, showing EXIF and the location where the photo was taken | You can browse the stream for photos and files
+Welcome screen with the streams | A paused slideshow, showing EXIF and the location
+where the photo was taken | You can browse the stream for photos and files
 <a href="images/stream_cards.jpg"><img src="images/stream_cards.jpg" width="180"></a> | <a href="images/slideshow_paused.jpg"><img src="images/slideshow_paused.jpg" width="180"></a> | <a href="images/browser.jpg"><img src="images/browser.jpg" width="180"></a>
 
 A short 3 minute introduction video:
@@ -49,7 +65,10 @@ A short 3 minute introduction video:
 
 Please [download the PhotoCloud application at Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe) for free.
 
-Endlessly cycles photos from any combination of the streams. You can play all photos from the stream, or you can limit the stream to given list of directories (and subdirs). You can also browse the files of the stream manually. The photos are automatically cached locally; when offline, you can show slideshow from cached photos only.
+Endlessly cycles photos from any combination of the streams. You can play all
+photos from the stream, or you can limit the stream to given list of directories (and subdirs).
+You can also browse the files of the stream manually. The photos are automatically
+cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 
 Supports:

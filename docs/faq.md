@@ -222,3 +222,26 @@ is non-functional or completely missing.
 
 Please make sure that you have the newest PhotoCloud installed (1.13.10 currently),
 since newer version may contain in-app-purchases fixes and workarounds.
+
+## Getting "SSL Handshake Aborted, sslv3 alert handshake failure"
+
+This issue occurs on devices running Android 4.4 when trying to connect over https to a TLS1.2-based server,
+since Android 4.4 devices usually do not support new TLS1.2 standard.
+
+Unfortunately
+this is not something PhotoCloud can work around since this lack of feature is deep within Android code itself.
+The solution is to either disable https on your OwnCloud/NextCloud server, or use a newer device.
+
+Please read more at [Nextcloud connecton failes with SSLv3 error](https://github.com/mvysny/photocloud-frame-slideshow/issues/123).
+
+The full error message reads:
+
+```
+Failed to connect. Please make sure that the server is running, is accessible from your phone and your OwnCloud config.php's
+trusted_domain list contains 'xxx'.
+Error. java.io.IOException: list / failed: -1: javax.net.ssl.SSLHandshakeException: javax.net.ssl.SSLProtocolException: SSL
+handshake aborted: ssl=0x6cb36970: Failure in SSL library, usually a protocol error.
+error 14077410:SSL routines: SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure (external/openssl/ssl/s23_clnt.c:741
+0x6a45d74:0x00000000)
+```
+

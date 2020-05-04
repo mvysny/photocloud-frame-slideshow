@@ -111,9 +111,11 @@ See [Privacy Policy](privacy_policy.html) for more details.
 
 # Devices Support
 
-PhotoCloud works best with Android 5 onwards (API level 21).
+PhotoCloud works best with Android 5 onwards (API level 21). You can install newest PhotoCloud from Google Play.
 
-You can install newest PhotoCloud from Google Play. In fact the PhotoCloud on Google Play also supports Android 4.4 and higher (API level 19 and higher),
+## Half-supported Devices
+
+In fact the PhotoCloud on Google Play also supports Android 4.4 and higher (API level 19 and higher),
 however on Android 4 you may encounter the "SSL Handshake Aborted" issues (see FAQ for more details), therefore Android 5+ is recommended.
 
 There is an older version of PhotoCloud published on Google Play which also

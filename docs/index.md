@@ -113,11 +113,11 @@ See [Privacy Policy](privacy_policy.html) for more details.
 
 PhotoCloud works best with Android 5 onwards (API level 21).
 
-You can install newest PhotoCloud from Google Play, but only on Android 4.4 and higher (API level 19 and higher).
-On Android 4.4 and lower, you may encounter the "SSL Handshake Aborted" issues, therefore Android 5+ is recommended.
+You can install newest PhotoCloud from Google Play. In fact the PhotoCloud on Google Play also supports Android 4.4 and higher (API level 19 and higher),
+however on Android 4 you may encounter the "SSL Handshake Aborted" issues (see FAQ for more details), therefore Android 5+ is recommended.
 
 There is an older version of PhotoCloud published on Google Play which also
-supports Android 4.1 (API level 16 and higher), but that older version will not be maintained.
+supports Android 4.1 (API level 16 and higher), but that older version is not maintained and provided as a "gesture of good will".
 
 Unfortunately, Androids 4.0 and lower are not officially supported at the moment.
 The reason for that is stated in [Issue #105](https://github.com/mvysny/photocloud-frame-slideshow/issues/105).

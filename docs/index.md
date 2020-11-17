@@ -23,6 +23,7 @@ Able to retrieve and slideshow photos from the following sources:
 - DLNA/UPNP
 - [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0
   and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
+- [iCloud Public Share](https://support.apple.com/en-us/HT210910) (since PhotoCloud 1.14.0)
 
 Respects user's privacy: PhotoCloud is the only Android Digital Frame application
 which supports your own personal OwnCloud/NextCloud servers (including self-signed

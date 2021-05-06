@@ -108,6 +108,19 @@ To remove all widgets, please make sure all of the following settings are off:
 
 See [Issue 119](https://github.com/mvysny/photocloud-frame-slideshow/issues/119) for more details.
 
+### Photo Cache Explained
+
+When launching a slideshow, a photo is downloaded from the server only if there's
+no cached version or if the cached version is too old.
+If the photo exists on the server, it is cached and displayed. If the photo no longer exists on the server,
+it is removed from the cache.
+
+So, the cache is updated/cleared only gradually, as the slideshow is running.
+
+The definition of "too old" depends on the *Short-Lived Cache* setting:
+* `Off` = a photo is old if it has been downloaded from the server 30 days ago or earlier.
+* `On` = a photo is old if it has been downloaded from the server 1 day ago (yesterday) or earlier.
+
 ## Launching PhotoCloud at boot-up time
 
 When configured, PhotoCloud is able start when your device boots up, turning your device into a photo frame.

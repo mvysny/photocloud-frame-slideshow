@@ -83,6 +83,9 @@ The workaround of attaching your Google Photos into your Google Drive is no long
 If you've previously used Google Drive, please remove the Google Drive stream and add the
 Google Photos stream.
 
+There have been reports that PhotoCloud only shows photos attached to an album - please see
+the [issue 164](https://github.com/mvysny/photocloud-frame-slideshow/issues/164) for more details.
+
 ## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.

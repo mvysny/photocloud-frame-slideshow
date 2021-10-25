@@ -138,6 +138,12 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
+## Launching PhotoCloud from Tasker
+
+You can use the Tasker app to run PhotoCloud in any way you need. Simply configure Tasker
+to send the `sk.baka.photoframe.START_SLIDESHOW` intent action. Please see [Issue #46](https://github.com/mvysny/photocloud-frame-slideshow/issues/46)
+for detailed steps.
+
 ## Memory & Crashes
 
 Most often PhotoCloud crashes because Android doesn't give PhotoCloud enough memory to hold the images in. You can verify this, by going into `Settings` / `About`

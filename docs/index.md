@@ -77,7 +77,12 @@ Supports:
 - ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone
 - Android TV - you can run this app straight on the TV and control it via the TV remote control
 
-Also supports Daydream (Android 4.2 and higher only). Please see below for supported Android versions.
+Also supports Daydream (Android 4.2 and higher only; unlocked with an one-time PhotoCloud purchase). Daydream in Android turns your phone’s display
+into a mosaic of images, news headlines or random colors. Debuting as part of Android 4.2, Daydream
+remains a feature in Android Marshmallow, as an interactive screensaver that switches on when you plug in your phone.
+Read more about the DayDream screensaver at the [Tom's Guide on Daydream screensaver](https://www.tomsguide.com/us/android-daydream,review-3306.html).
+
+Please see below on which Android versions are supported by PhotoCloud.
 
 ## Pricing
 

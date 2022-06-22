@@ -138,6 +138,9 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
+NOTE: Unfortunately for some phones/Android versions PhotoCloud won't start on boot-up. Please see [Issue #176](https://github.com/mvysny/photocloud-frame-slideshow/issues/176)
+for more details.
+
 ## Launching PhotoCloud from Tasker
 
 You can use the Tasker app to run PhotoCloud in any way you need. Simply configure Tasker

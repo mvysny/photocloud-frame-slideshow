@@ -276,3 +276,12 @@ This happens when you try to access SSH (secure shell, a secure way to send comm
 SFTP stands for Secure File Transfer Protocol, works over SSH, and without it, SSH can not transfer files.
 Please make sure SFTP is enabled on your server.
 
+## Synology Diskstation & DLNA
+
+Some users received "Synology DS218j DS218j 6.2-25556 does not provide content directory and is thus not browsable for photos"
+when accessing Synology Diskstation via DLNA. The problem is that Synology doesn't offer the `urn:schemas-upnp-org:service:ContentDirectory:*`
+DLNA service which is required for photo browsing. If you know another DLNA way of retrieving photos, please [open a ticket](https://github.com/mvysny/photocloud-frame-slideshow/issues)
+and let me know.
+
+Known workaround is to access your photos over SSH instead; please make sure to also enable SFTP as discussed above.
+

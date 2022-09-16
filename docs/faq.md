@@ -270,3 +270,9 @@ error 14077410:SSL routines: SSL23_GET_SERVER_HELLO:sslv3 alert handshake failur
 0x6a45d74:0x00000000)
 ```
 
+## Getting JSchException: failed to send channel request’
+
+This happens when you try to access SSH (secure shell, a secure way to send commands to remote machine) which has SFTP disabled.
+SFTP stands for Secure File Transfer Protocol, works over SSH, and without it, SSH can not transfer files.
+Please make sure SFTP is enabled on your server.
+

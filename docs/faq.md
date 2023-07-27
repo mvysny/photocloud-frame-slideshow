@@ -56,6 +56,18 @@ Troubleshooting:
   For example, someone else could have logged in into your TV. Also, please make sure that
   the purchase shows in your Google Play's "Payments & subscriptions -> Budget & history" page.
 
+## Getting Billing Error #5
+
+This error:
+
+> Billing error #5 Developer Error: Invalid argument provided to the API.
+> This error can also indicate that the application was not correctly signed or properly setup for In-app Billing.
+> in Google Play or does not have the necessary permissions in its manifest:
+> java.lang.Throwable:Client is already in the process of connecting to billing service.
+
+Currently there is no known solution, apart from making sure that you have the newest Google Play
+installed on your phone.
+
 ## Slideshow from a subfolder
 
 There are two ways to achieve this:

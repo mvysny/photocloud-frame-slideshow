@@ -52,6 +52,9 @@ Troubleshooting:
 * If the "Unlocked Nagging Dialog" is "true" then PhotoCloud knows you've done the
   purchase and it is a bug if PhotoCloud still shows the nagging screen. In that case, please open
   a bug report in the [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+* If the "Unlocked Nagging Dialog" is "false", please make sure that your user is still logged in into Google Play.
+  For example, someone else could have logged in into your TV. Also, please make sure that
+  the purchase shows in your Google Play's "Payments & subscriptions -> Budget & history" page.
 
 ## Slideshow from a subfolder
 

@@ -193,14 +193,14 @@ PhotoCloud logs what it is doing, to a standard Android log. If PhotoCloud does 
 please open a bug report at [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 During our conversation, I may ask for a log produced by PhotoCloud. Please follow the following steps to obtain the crash stack trace:
 
-* [Enable debugging mode on your phone](http://www.wugfresh.com/faq/6/) or google for "android enable debug mode"
+* [Enable debugging mode on your phone](https://developer.android.com/studio/debug/dev-options) or google for "android enable debug mode" for your phone
 * Connect your phone via the USB cable with your computer
 * One way to check the logs is the GUI way, by downloading the Android Studio and following [View logs with Logcat](https://developer.android.com/studio/debug/logcat)
   * [Download and install Android Studio](http://developer.android.com/sdk/index.html#download)
   * In the upper-right part there's a picker "Select Run/Debug configuration". You should see your device here. Select it.
   * [Open the logcat window](https://developer.android.com/studio/debug/logcat)
 * Another way is the command-line way
-  * [Download Android SDK](http://developer.android.com/sdk/index.html#download), the `Get just the command line tools` link
+  * [Download Android SDK](http://developer.android.com/sdk/index.html#download) and scroll down to the "Command line tools only" links
   * Run `adb devices` from command line - you should see your device
   * Run `adb logcat` to get the logcat
 

@@ -192,14 +192,17 @@ it beats having PhotoCloud crashing all the time.
 PhotoCloud logs what it is doing, to a standard Android log. If PhotoCloud does not work properly or keeps crashing,
 please open a bug report at [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 During our conversation, I may ask for a log produced by PhotoCloud. Please follow the following steps to obtain the crash stack trace:
-* Generally follow the [How-to guide to debugging with Android logcat](https://logmatic.io/blog/a-how-to-guide-to-debugging-with-android-logcat/); the information below may be useful as well.
-* [Download Android SDK](http://developer.android.com/sdk/index.html#download), the `Get just the command line tools` link
+
 * [Enable debugging mode on your phone](http://www.wugfresh.com/faq/6/) or google for "android enable debug mode"
 * Connect your phone via the USB cable with your computer
-* Start the [device monitor](http://developer.android.com/tools/help/monitor.html)
-* Switch to the [DDMS perspective](http://developer.android.com/tools/debugging/ddms.html) - the logcat window is located at the bottom of the screen.
-* Alternatively you can use [android-log-viewer](https://bitbucket.org/mlopatkin/android-log-viewer/src/master/) to get the log
-  (requires Android SDK).
+* One way to check the logs is the GUI way, by downloading the Android Studio and following [View logs with Logcat](https://developer.android.com/studio/debug/logcat)
+  * [Download and install Android Studio](http://developer.android.com/sdk/index.html#download)
+  * In the upper-right part there's a picker "Select Run/Debug configuration". You should see your device here. Select it.
+  * [Open the logcat window](https://developer.android.com/studio/debug/logcat)
+* Another way is the command-line way
+  * [Download Android SDK](http://developer.android.com/sdk/index.html#download), the `Get just the command line tools` link
+  * Run `adb devices` from command line - you should see your device
+  * Run `adb logcat` to get the logcat
 
 **Caution**: the log may contain sensitive information such as phone numbers you have dialed etc. Make sure to paste only the stack trace into the Github issue,
 with sensitive info (file names) starred out. The most important part is the crash information itself, or an exception stack-trace as it is called. It looks like this:

@@ -288,6 +288,16 @@ error 14077410:SSL routines: SSL23_GET_SERVER_HELLO:sslv3 alert handshake failur
 0x6a45d74:0x00000000)
 ```
 
+You can get the same exception in the Weather widget: "Err SSLHandshakeException Handshake Failed".
+This exception started to manifest in roughly July 2023. The reason is that OpenWeatherMap
+(the source of weather site for PhotoCloud) recently dropped support for TLS1.1, however your
+TV/Android device most probably runs older Android version which doesn’t support TLS1.2.
+
+There's nothing we can do. You have to upgrade Android to newer, or buy a new device.
+You can for example buy an Android TV box which are running newer Android.
+
+Also see the [Discussion Thread](https://groups.google.com/g/photocloud-frame/c/ERYc2cXnx2I) for more details.
+
 ## Getting JSchException: failed to send channel request’
 
 This happens when you try to access SSH (secure shell, a secure way to send commands to remote machine) which has SFTP disabled.

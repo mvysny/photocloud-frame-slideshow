@@ -99,6 +99,22 @@ the "In-App Purchases API available:" line. If it says "false", then unfortunate
 
 In such case please don't use in-app purchases.
 
+## Offline Licenses
+
+It is possible to install PhotoCloud on an Android device that doesn't have Google Play installed.
+Please reach out to me at martin@vysny.me and I'll give you a download link of a special PhotoCloud
+build which doesn't use Google Play but instead uses a system of licenses.
+
+Once launched, PhotoCloud will present you with a device key. You need to e-mail me the device key;
+in turn I'll give you an unlock code which you have to type into PhotoCloud.
+
+The unlock key unlocks all versions of the app; the app should stay unlocked even when updated.
+You can also use the same unlock key after you uninstall PhotoCloud and install it from scratch.
+There is no count limit - you can reinstall and unlock the app on the same device as many times as you need.
+
+However, **factory reset of the device will change the Hardware Key and will render the unlock key useless**.
+In such case you will need to purchase a new unlock key.
+
 # Privacy Policy
 
 See [Privacy Policy](privacy_policy.html) for more details.

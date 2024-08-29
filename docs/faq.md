@@ -313,3 +313,10 @@ and let me know.
 
 Known workaround is to access your photos over SSH instead; please make sure to also enable SFTP as discussed above.
 
+## Gallery not working
+
+The "Folders" and "Moments" feature uses an internal filtering/photo retrieval mechanism of
+Android which is very complicated and hard to call correctly. If those two don't work on your device, just
+go to the "Phone Memory" folder. It uses a simple file-based access to your phone's
+photos and should always work.
+

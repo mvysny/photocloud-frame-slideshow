@@ -320,3 +320,17 @@ Android which is very complicated and hard to call correctly. If those two don't
 go to the "Phone Memory" folder. It uses a simple file-based access to your phone's
 photos and should always work.
 
+## Google Family Library
+
+Google Play allows for some apps and games to be [shared amongst all members of your family](https://support.google.com/googleplay/answer/7007852).
+Unfortunately, PhotoCloud is [not eligible for the Google Family Library program](https://support.google.com/googleplay/android-developer/thread/229982556?hl=en&msgid=229988003)
+since:
+
+* it's not a paid app
+* [Not eligible for Teacher Approved Program](https://support.google.com/googleplay/android-developer/answer/10075896?hl=en)
+* Google Play doesn't allow In-App Products such as "Unlock Daydream" and "Remove the Nagging Please Purchase"
+  to be shared between family members.
+
+The only way to remove the nagging "Please Purchase" image is to purchase the In-App Product
+for the same Google user that is logged in to the tablet device intended to serve as a photo frame.
+

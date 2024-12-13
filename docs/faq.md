@@ -101,6 +101,13 @@ Google Photos stream.
 There have been reports that PhotoCloud only shows photos attached to an album - please see
 the [issue 164](https://github.com/mvysny/photocloud-frame-slideshow/issues/164) for more details.
 
+If you’re getting `Google Photos API 429 Too Many Requests`, please reinstall or update
+PhotoCloud and try again. Also see [issue 134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134).
+
+Google Drive: Note that PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive.
+This is the new Google security policy and there's nothing I can do about it. Please share your images
+with PhotoCloud in your Google Drive.
+
 ## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.

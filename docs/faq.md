@@ -108,6 +108,11 @@ Google Drive: Note that PhotoCloud only sees images explicitly shared with Photo
 This is the new Google security policy and there's nothing I can do about it. Please share your images
 with PhotoCloud in your Google Drive.
 
+Support for Google Photos on Fire Tablet (or on a device that doesn't have Google Play) is unknown.
+I'm using standard Google API Client to access both Google Photos and Google Drive, but
+it's not known whether Google API Client works on Android devices without Google Play.
+Try it out and let me know :)
+
 ## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.

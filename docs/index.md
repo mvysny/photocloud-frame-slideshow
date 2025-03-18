@@ -89,6 +89,11 @@ Please see below on which Android versions are supported by PhotoCloud.
 Pricing: free version shows a "please purchase" images once a while during the slideshow. There is an in-app payment which removes these images.
 Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher, don't purchase if you have Android 4.1 or lower.
 
+To recap, there are two separate one-time purchases possible for this app:
+
+* The “Remove Nagging Screen” purchase which removes the “please purchase” nagging screen;
+* The “Daydream” support purchase which allows Photocloud to be registered as a Daydream service on your phone.
+
 The in-app purchases are located in PhotoCloud Settings - simply touch the appropriate item to launch Google Play purchase process.
 If the "Purchase" items are missing, it could be that the In-App Purchases API
 is not available on your device (for example Amazon Fire tablet with Google Play). To verify that, please open the About Dialog and scroll to the bottom: in the "System stats" Section there will be

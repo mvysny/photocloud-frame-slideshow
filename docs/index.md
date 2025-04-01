@@ -107,8 +107,8 @@ In such case please don't use in-app purchases.
 ## Offline Licenses
 
 It is possible to install PhotoCloud on an Android device that doesn't have Google Play installed.
-Please reach out to me at `martin@vysny.me` and I'll give you a download link of a special PhotoCloud
-build which doesn't use Google Play but instead uses a system of licenses.
+Please reach out to me at `martin@vysny.me` and download [a special PhotoCloud flavor](https://drive.google.com/drive/folders/145so1MQaABb8EwaowLGrisX9mDUqOj6J?usp=sharing)
+which doesn't use Google Play but instead uses a system of licenses.
 
 > Warning: this flavor of PhotoCloud doesn't support Google Photos.
 

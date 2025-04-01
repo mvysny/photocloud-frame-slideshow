@@ -159,7 +159,7 @@ Unfortunately, Androids 4.0 and lower are not officially supported at the moment
 The reason for that is stated in [Issue #105](https://github.com/mvysny/photocloud-frame-slideshow/issues/105).
 
 There is an unofficial build which targets Android 4.0.3 and higher (API level 15 and higher).
-You can [get the APK from this link](https://www.baka.sk/images/photoframe-apk-googlePlay-release.apk),
+You can [get the APK from this link](https://drive.google.com/drive/folders/1CyngJ0CNVHiDkV_S2mQVAs7dlVQ9nirs?usp=sharing),
 however parts of the app requiring higher Android will simply crash. Such crashes will not be fixed.
 
 ## Unsupported Devices

@@ -110,6 +110,8 @@ It is possible to install PhotoCloud on an Android device that doesn't have Goog
 Please reach out to me at `martin@vysny.me` and I'll give you a download link of a special PhotoCloud
 build which doesn't use Google Play but instead uses a system of licenses.
 
+> Warning: this flavor of PhotoCloud doesn't support Google Photos.
+
 Once launched, PhotoCloud will present you with a device key. You need to e-mail me the device key;
 in turn I'll give you an unlock code which you have to type into PhotoCloud.
 The unlock code is 102 characters long; it's really annoying to type in on a TV.
@@ -119,13 +121,14 @@ You can also use the same unlock key after you uninstall PhotoCloud and install 
 There is no count limit - you can reinstall and unlock the app on the same device as many times as you need.
 
 However, **factory reset of the device will change the Hardware Key and will render the unlock key useless**.
-In such case you will need to purchase a new unlock key.
+In such case you **will need to purchase a new unlock key**.
 
 The price of the license key is 10 EUR, paid to my PayPal account.
 
 THERE IS ABSOLUTELY NO WARRANTY AND NO PROMISE FOR ANY FUTURE UPDATES.
 You're receiving the software as-is, and you are responsible for figuring out the way
-to install it (side-load it) to your device.
+to install it (side-load it) to your device. The best way is to find and watch a YouTube
+video on how to sideload APK to a TV.
 
 # Privacy Policy
 

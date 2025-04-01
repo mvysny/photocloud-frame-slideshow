@@ -114,11 +114,12 @@ which doesn't use Google Play but instead uses a system of licenses.
 
 Once launched, PhotoCloud will present you with a device key. You need to e-mail me the device key;
 in turn I'll give you an unlock code which you have to type into PhotoCloud.
-The unlock code is 102 characters long; it's really annoying to type in on a TV.
+The unlock code is 102 characters long; it's really annoying to type in on a TV - you
+have been warned :)
 
-The unlock key unlocks all versions of the app; the app should stay unlocked even when updated.
+The unlock key unlocks all features of the app. The app should stay unlocked even when updated.
 You can also use the same unlock key after you uninstall PhotoCloud and install it from scratch.
-There is no count limit - you can reinstall and unlock the app on the same device as many times as you need.
+There is no unlock count limit - you can reinstall and unlock the app on the same device as many times as you need.
 
 However, **factory reset of the device will change the Hardware Key and will render the unlock key useless**.
 In such case you **will need to purchase a new unlock key**.

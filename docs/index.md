@@ -1,6 +1,6 @@
 # PhotoCloud
 
-Android Digital Frame App for Tablet, Phone and Android TV
+Android Digital Frame App for Tablet and Phone.
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
 
@@ -72,10 +72,7 @@ You can also browse the files of the stream manually. The photos are automatical
 cached locally; when offline, you can show slideshow from cached photos only.
 Supports slideshowing photos from subdirectories.
 
-Supports:
-
-- ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone
-- Android TV - you can run this app straight on the TV and control it via the TV remote control
+Supports ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone.
 
 Also supports Daydream (Android 4.2 and higher only; unlocked with an one-time PhotoCloud purchase). Daydream in Android turns your phone’s display
 into a mosaic of images, news headlines or random colors. Debuting as part of Android 4.2, Daydream
@@ -114,7 +111,7 @@ which doesn't use Google Play but instead uses a system of licenses.
 
 Once launched, PhotoCloud will present you with a device key. You need to e-mail me the device key;
 in turn I'll give you an unlock code which you have to type into PhotoCloud.
-The unlock code is 102 characters long; it's really annoying to type in on a TV - you
+The unlock code is 102 characters long; it's really annoying to type in - you
 have been warned :)
 
 The unlock key unlocks all features of the app. The app should stay unlocked even when updated.
@@ -129,7 +126,7 @@ The price of the license key is 10 EUR, paid to my PayPal account.
 THERE IS ABSOLUTELY NO WARRANTY AND NO PROMISE FOR ANY FUTURE UPDATES.
 You're receiving the software as-is, and you are responsible for figuring out the way
 to install it (side-load it) to your device. The best way is to find and watch a YouTube
-video on how to sideload APK to a TV.
+video on how to sideload the APK.
 
 # Privacy Policy
 
@@ -170,6 +167,10 @@ however parts of the app requiring higher Android will simply crash. Such crashe
 
 It has been reported that [in-app payments on the Amazon Fire tablets with Google Play installed do not work](https://groups.google.com/forum/#!topic/photocloud-frame/YGF8EFPA3E4) -
 the payment goes through but the annoying "Please Purchase" image stays. Please do not use PhotoCloud's in-app purchases if you plan to use the app on the Amazon Fire tablet.
+
+Also, *Android TV* is **not** supported; see [bug #198](https://github.com/mvysny/photocloud-frame-slideshow/issues/198) for more details.
+In short: The reason is that, during the upload of the last version to Google Play, Google rejected the update because of some Android TV-related issue and posted a very vague Set of instructions to fix the issue.
+I was unable to figure out what is the issue to be fixed, and Google didn't bother to reply to any of my e-mails.
 
 # Links
 

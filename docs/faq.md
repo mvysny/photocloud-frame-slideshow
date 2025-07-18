@@ -98,7 +98,7 @@ Read [bug #134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134)
 
 ## Google Drive (BROKEN)
 
-** Google Drive integration is fundamentally broken at the moment** - PhotoCloud will never
+**Google Drive integration is fundamentally broken at the moment** - PhotoCloud will never
 see any files in Google Drive. See [bug #199](https://github.com/mvysny/photocloud-frame-slideshow/issues/199)
 for more details.
 

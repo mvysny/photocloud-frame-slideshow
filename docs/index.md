@@ -14,7 +14,7 @@ Able to retrieve and slideshow photos from the following sources:
 - [Dropbox](https://www.dropbox.com/)
 - Local Gallery
 - [Flickr](https://www.flickr.com/)
-- [Google Drive](https://www.google.com/drive/)
+- [Google Drive](https://www.google.com/drive/) - BROKEN at the moment, see FAQ below.
 - [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
 - [Mega](https://mega.nz/)

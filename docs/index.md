@@ -24,6 +24,10 @@ Able to retrieve and slideshow photos from the following sources:
   and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
 - [iCloud Public Share](https://support.apple.com/en-us/HT210910) (since PhotoCloud 1.14.0)
 
+Additional sources are supported via a third-party app such as Foldersync Pro;
+see [this PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE)
+for more information.
+
 Respects user's privacy: PhotoCloud is the only Android Digital Frame application
 which supports your own personal OwnCloud/NextCloud servers (including self-signed
 https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.

@@ -108,6 +108,8 @@ This is the new Google security policy and there's nothing I can do about it. Un
 it's not possible to share images with PhotoCloud at the moment, that's why PhotoCloud
 can connect to Google Drive but will never find any files nor folders.
 
+**Workaround**: Use Foldersync Pro as described in this [PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE).
+
 ## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.

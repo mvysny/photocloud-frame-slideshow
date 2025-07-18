@@ -91,27 +91,17 @@ The main screen listing four stream cards:
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.
 
-## Google Photos support
+## Google Photos NOT SUPPORTED
 
-I've managed to add a native support for Google Photos (since 1.13.13).
-The workaround of attaching your Google Photos into your Google Drive is no longer necessary.
-If you've previously used Google Drive, please remove the Google Drive stream and add the
-Google Photos stream.
+[Google Photos](https://photos.google.com/) ARE NO LONGER SUPPORTED.
+Read [bug #134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134) for more details.
 
-There have been reports that PhotoCloud only shows photos attached to an album - please see
-the [issue 164](https://github.com/mvysny/photocloud-frame-slideshow/issues/164) for more details.
+## Google Drive
 
-If you’re getting `Google Photos API 429 Too Many Requests`, please reinstall or update
-PhotoCloud and try again. Also see [issue 134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134).
-
-Google Drive: Note that PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive.
+PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive - it
+does not see all images nor all files in your Google Drive account.
 This is the new Google security policy and there's nothing I can do about it. Please share your images
-with PhotoCloud in your Google Drive.
-
-Support for Google Photos on Fire Tablet (or on a device that doesn't have Google Play) is unknown.
-I'm using standard Google API Client to access both Google Photos and Google Drive, but
-it's not known whether Google API Client works on Android devices without Google Play.
-Try it out and let me know :)
+with PhotoCloud in your Google Drive. TODO how to do that?
 
 ## Adding more Streams
 

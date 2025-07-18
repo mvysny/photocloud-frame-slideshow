@@ -98,10 +98,15 @@ Read [bug #134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134)
 
 ## Google Drive
 
-PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive - it
+** Google Drive integration is fundamentally broken at the moment** - PhotoCloud will never
+see any files in Google Drive. See [bug #199](https://github.com/mvysny/photocloud-frame-slideshow/issues/199)
+for more details.
+
+Reason: PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive - it
 does not see all images nor all files in your Google Drive account.
-This is the new Google security policy and there's nothing I can do about it. Please share your images
-with PhotoCloud in your Google Drive. TODO how to do that?
+This is the new Google security policy and there's nothing I can do about it. Unfortunately,
+it's not possible to share images with PhotoCloud at the moment, that's why PhotoCloud
+can connect to Google Drive but will never find any files nor folders.
 
 ## Adding more Streams
 

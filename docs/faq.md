@@ -298,6 +298,21 @@ You can for example buy an Android TV box which are running newer Android.
 
 Also see the [Discussion Thread](https://groups.google.com/g/photocloud-frame/c/ERYc2cXnx2I) for more details.
 
+### "Trust anchor for certification path not found"
+
+A different handshake failure hits devices that do support TLS1.2: the device doesn't trust the
+certificate authority that signed the server's certificate. The error usually reads
+`SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found`.
+
+The usual culprit is [Let's Encrypt](https://letsencrypt.org/), which signs the weather icons from
+openweathermap.org, iCloud web albums and many self-hosted Nextcloud/OwnCloud servers. Older
+Android versions (and some vendor forks such as Fire OS) don't know Let's Encrypt's root
+certificates ISRG Root X1 and X2, and the old cross-signature that used to cover them has expired.
+
+PhotoCloud versions newer than 1.15.8 bundle both Let's Encrypt roots and trust them on every
+Android version, so please upgrade. If the error persists, please
+[open an issue](https://github.com/mvysny/photocloud-frame-slideshow/issues) with the full error message.
+
 ## Getting JSchException: failed to send channel request’
 
 This happens when you try to access SSH (secure shell, a secure way to send commands to remote machine) which has SFTP disabled.

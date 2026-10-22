@@ -91,25 +91,6 @@ The main screen listing four stream cards:
 You will be able to check multiple streams; then just touch the upper-right *Start Slideshow* button
 to start slideshow from all of those streams.
 
-## Google Photos NOT SUPPORTED
-
-[Google Photos](https://photos.google.com/) ARE NO LONGER SUPPORTED.
-Read [bug #134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134) for more details.
-
-## Google Drive (BROKEN)
-
-**Google Drive integration is fundamentally broken at the moment** - PhotoCloud will never
-see any files in Google Drive. See [bug #199](https://github.com/mvysny/photocloud-frame-slideshow/issues/199)
-for more details.
-
-Reason: PhotoCloud only sees images explicitly shared with PhotoCloud in Google Drive - it
-does not see all images nor all files in your Google Drive account.
-This is the new Google security policy and there's nothing I can do about it. Unfortunately,
-it's not possible to share images with PhotoCloud at the moment, that's why PhotoCloud
-can connect to Google Drive but will never find any files nor folders.
-
-**Workaround**: Use Foldersync Pro as described in this [PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE).
-
 ## Adding more Streams
 
 Open the main screen and touch the lower big white plus button. You will be able to add additional streams.
@@ -255,6 +236,16 @@ You can easily find such exceptions simply by searching for `sk.baka.photoframe`
   See [bug 90](https://github.com/mvysny/photocloud-frame-slideshow/issues/90) for more details.
 - Instagram because Instagram shut down their API and the photos are no longer accessible. The new so-called [Instagram Graph API](https://developers.facebook.com/docs/instagram-api)
   is only available for Business or Creator accounts. See [bug 107](https://github.com/mvysny/photocloud-frame-slideshow/issues/107) for more details.
+- [Google Photos](https://photos.google.com/) because since March 2025 Google's Photos Library API no longer lists the user's photos;
+  an app only sees the photos it uploaded itself. Google's replacement, the Photos Picker, makes you pick at most 2000 photos
+  by hand, the pick expires, and photos added to an album later never show up - useless for a photo frame.
+  See [bug 134](https://github.com/mvysny/photocloud-frame-slideshow/issues/134) for more details.
+- [Google Drive](https://www.google.com/drive/) because Google only lets PhotoCloud see the files explicitly shared with PhotoCloud,
+  not your photos; reading the whole Drive needs a paid security assessment, renewed every year.
+  PhotoCloud 1.15.8 and older can still connect to Google Drive, but never find any files nor folders.
+  See [bug 199](https://github.com/mvysny/photocloud-frame-slideshow/issues/199) for more details.
+  **Workaround**: sync your Google Drive photos to the device with Foldersync Pro, as described in this
+  [PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE).
 
 ## Known Issues With Certain Types of Streams
 

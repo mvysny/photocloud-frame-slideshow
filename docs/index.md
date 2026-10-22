@@ -14,7 +14,6 @@ Able to retrieve and slideshow photos from the following sources:
 - [Dropbox](https://www.dropbox.com/)
 - Local Gallery
 - [Flickr](https://www.flickr.com/)
-- [Google Drive](https://www.google.com/drive/) - BROKEN at the moment, see FAQ below.
 - [Microsoft OneDrive](https://onedrive.live.com/)
 - Windows Shares (Samba)
 - [Mega](https://mega.nz/)
@@ -24,7 +23,8 @@ Able to retrieve and slideshow photos from the following sources:
   and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
 - [iCloud Public Share](https://support.apple.com/en-us/HT210910) (since PhotoCloud 1.14.0)
 
-Additional sources are supported via a third-party app such as Foldersync Pro;
+Google Drive and Google Photos are no longer supported; see the FAQ for why.
+Additional sources, Google Drive included, are supported via a third-party app such as Foldersync Pro;
 see [this PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE)
 for more information.
 
@@ -116,7 +116,7 @@ See [Privacy Policy](privacy_policy.html) for more details.
 
 - `INTERNET` - to download photos from cloud services
 - `WRITE_EXTERNAL_STORAGE` - to workaround a bug in older Androids to cache photos
-- `GET_ACCOUNTS` - Google Drive and App Billing requires this
+- `GET_ACCOUNTS` - Google Drive; only PhotoCloud 1.15.8 and older ask for it
 - `BILLING` - In-app purchases
 - `ACCESS_NETWORK_STATE` - allows PhotoCloud to monitor for WiFi and stop slideshow to avoid cellular network charges
 - `RECEIVE_BOOT_COMPLETED` - to automatically start (if so configured)

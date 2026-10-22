@@ -143,14 +143,31 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
-NOTE: Unfortunately for some phones/Android versions PhotoCloud won't start on boot-up. Please see [Issue #176](https://github.com/mvysny/photocloud-frame-slideshow/issues/176)
-for more details.
+NOTE: On Android 10 and newer, PhotoCloud currently can't start the slideshow on boot-up or when the power cable is plugged in:
+Android blocks apps from opening a screen while they run in the background. Until PhotoCloud fixes that, use Tasker instead,
+see [Launching PhotoCloud from Tasker](#launching-photocloud-from-tasker) below. Please see
+[Issue #176](https://github.com/mvysny/photocloud-frame-slideshow/issues/176) and
+[Issue #185](https://github.com/mvysny/photocloud-frame-slideshow/issues/185) for more details.
 
 ## Launching PhotoCloud from Tasker
 
-You can use the Tasker app to run PhotoCloud in any way you need. Simply configure Tasker
-to send the `sk.baka.photoframe.START_SLIDESHOW` intent action. Please see [Issue #46](https://github.com/mvysny/photocloud-frame-slideshow/issues/46)
-for detailed steps.
+You can use the Tasker app to start the slideshow in any way you need: on boot-up, when the power cable is plugged in,
+at a certain time of day, and so on.
+
+1. In PhotoCloud, open Settings / Slideshow and pick the streams to show in "Auto-start Stream List".
+   If you pick none, all streams are shown.
+2. In Tasker, create a profile with the event you need, for example *Event / System / Device Boot*
+   or *State / Power / Power* with the source *Any*.
+3. Give the profile a task with the *App / Launch App* action and pick PhotoCloud's *Slideshow* app
+   (the second PhotoCloud icon, `sk.baka.photoframe.frame.PhotoFrameActivity`).
+4. When Tasker asks for the "Display over other apps" permission, grant it. Android 10 and newer
+   only lets Tasker open an app from the background with this permission.
+
+If the slideshow is already running in the background, *Launch App* brings it to the front.
+
+NOTE: Don't use Tasker's *Send Intent* action with `sk.baka.photoframe.START_SLIDESHOW`, which older versions of this FAQ
+recommended. It doesn't work on Android 10 and newer: PhotoCloud receives that intent in the background,
+and Android doesn't allow it to open the slideshow from there.
 
 ## Memory & Crashes
 

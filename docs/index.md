@@ -4,52 +4,65 @@ Android Digital Frame App for Tablet and Phone.
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
 
-Just sit back and watch your photos with your family; convert your old Android tablet
-to a digital photo frame; browse your cloud photos, hassle-free. The only digital frame
-application which supports your own OwnCloud/NextCloud servers, with self-signed https certificates.
+Turn an old Android tablet or phone into a digital photo frame. Sit back and watch your photos
+with your family: PhotoCloud shows a slideshow of photos from your own devices, your home network
+and your cloud storage. No fluff, no bloat: an old-school app that is simple to use and just works.
 
-Able to retrieve and slideshow photos from the following sources:
-- [OwnCloud](https://owncloud.org/)/[NextCloud](https://nextcloud.com/) server,
-  even with self-signed https certificate
+Shows photos from any combination of these sources:
+- Local Gallery (photos on the device)
+- [ownCloud](https://owncloud.com/)/[Nextcloud](https://nextcloud.com/) server,
+  even with a self-signed https certificate
+- Windows shares (Samba / SMB)
+- SSH / SFTP servers
+- DLNA / UPnP media servers
 - [Dropbox](https://www.dropbox.com/)
-- Local Gallery
-- [Flickr](https://www.flickr.com/)
 - [Microsoft OneDrive](https://onedrive.live.com/)
-- Windows Shares (Samba)
+- [Box](https://www.box.com/)
+- [Flickr](https://www.flickr.com/)
 - [Mega](https://mega.nz/)
-- SSH and SFTP
-- DLNA/UPNP
-- [Box: https://www.box.com/](https://www.box.com/) (only works on Android 5.0
-  and higher because of [TLS 1.0 deprecation](https://developer.box.com/docs/tls-1))
-- [iCloud Public Share](https://support.apple.com/en-us/HT210910) (since PhotoCloud 1.14.0)
+- [iCloud shared albums](https://support.apple.com/en-us/HT210910) (Public Share)
 
-Google Drive and Google Photos are no longer supported; see the FAQ for why.
-Additional sources, Google Drive included, are supported via a third-party app such as Foldersync Pro;
-see [this PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE)
-for more information.
+Google Photos and Google Drive are no longer supported; see the [FAQ](faq.html) for why.
+You can still show them, and other sources too, by syncing them to the device with a sync app
+such as FolderSync, then adding the synced folder to PhotoCloud;
+see [this PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE).
 
-Respects user's privacy: PhotoCloud is the only Android Digital Frame application
-which supports your own personal OwnCloud/NextCloud servers (including self-signed
-https certificates), your own SSH+SFTP servers, photos located on your Windows machines, etc.
+Respects your privacy: PhotoCloud only reads your photos; it never changes, uploads or deletes
+them. It is one of the few photo frame apps that work with your own Nextcloud/ownCloud server
+(including self-signed https certificates), your own SFTP server or the photos on your Windows PC,
+so your photos never have to leave your home.
+
+## Features
+
+- Plays all photos of a source, or only chosen folders and their subfolders, from any combination of sources
+- Random or ordered playback, configurable delay, transitions and Ken Burns effect
+- Photos are cached on the device; when offline, the slideshow goes on from the cache
+- Clock, date, battery status and weather forecast on screen
+- Shows EXIF data, the file name and where the photo was taken
+- Moments: show only photos from a date range, or older photos less often
+- Background music from the device
+- Day and night brightness and dimming
+- Starts automatically on boot or when the charger is connected
+- Browse the photos of a source by hand
+- Cast the slideshow to your TV with Chromecast
+- Works as the Android screen saver (Daydream)
 
 Supported image types:
-- bitmap: png, gif, bmp, jpg, jpeg, webp
-- raw: crw, cr2, nef, raf, dng, mos, kdc, dcr (by default ignored since loading
-  RAWs will generate huge network traffic; just enable raws in app's Settings)
-- heif, heic. Starting from Android 9 P, HEIF/HEIC is supported natively. For Android Lollypop and higher, PhotoCloud includes an experimental HEIF/HEIC decoder library
-  which you need to enable in Settings / Filters/Moments / Include HEIF/HEIC in Slideshow.
+- bitmap: jpg, jpeg, png, gif, bmp, webp
+- HEIF / HEIC: enable in Settings / Filters/Moments / Include HEIF/HEIC in Slideshow.
+  Android 9 and newer decode it natively; on older Androids PhotoCloud uses its own
+  experimental decoder.
+- raw: crw, cr2, nef, raf, dng, mos, kdc, dcr. Off by default, since RAWs are large and
+  generate huge network traffic; enable in Settings / Filters/Moments / Include RAWs in Slideshow.
 
-Please note:
-This is just a digital frame / photo browser. It does not play any music,
-does not create videos, does not replace your gallery app, it does simply one
-thing - shows a slideshow of your photos - and does it simply and right.
+Please note: this is just a digital frame and photo browser. It doesn't edit photos, create
+videos or replace your gallery app. It does one thing - shows a slideshow of your photos -
+and does it simply and right.
 
-Because of its nature, the application generates a very high network traffic -
-please make sure you have WIFI enabled. The app has built-in network protection
-and will abort the Slideshow if WIFI disconnects.
+A slideshow from network or cloud sources downloads a lot of data, so PhotoCloud waits for
+Wi-Fi or another unmetered connection by default (Settings / Metered Connection Protection).
 
-No annoying video commercials, simple to use. This application is at its infancy,
-please let me know which features would you like me to implement, at
+Ideas, bugs and questions are welcome at
 the [bug tracker page](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 
 ## Screenshots
@@ -64,35 +77,15 @@ A short 3 minute introduction video:
 
 [![PhotoCloud Introduction Video](https://img.youtube.com/vi/k0XDCYmSRuk/0.jpg)](http://www.youtube.com/watch?v=k0XDCYmSRuk "PhotoCloud Intro Video")
 
-
-## Free Download At Google Play
-
-Please [download the PhotoCloud application at Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe) for free.
-
-Endlessly cycles photos from any combination of the streams. You can play all
-photos from the stream, or you can limit the stream to given list of directories (and subdirs).
-You can also browse the files of the stream manually. The photos are automatically
-cached locally; when offline, you can show slideshow from cached photos only.
-Supports slideshowing photos from subdirectories.
-
-Supports ChromeCast (requires Android 4.4 and higher) - casts current slideshow to your TV from your phone.
-
-Also supports Daydream (Android 4.2 and higher only; unlocked with an one-time PhotoCloud purchase). Daydream in Android turns your phone’s display
-into a mosaic of images, news headlines or random colors. Debuting as part of Android 4.2, Daydream
-remains a feature in Android Marshmallow, as an interactive screensaver that switches on when you plug in your phone.
-Read more about the DayDream screensaver at the [Tom's Guide on Daydream screensaver](https://www.tomsguide.com/us/android-daydream,review-3306.html).
-
-Please see below on which Android versions are supported by PhotoCloud.
-
 ## Pricing
 
-Pricing: free version shows a "please purchase" images once a while during the slideshow. There is an in-app payment which removes these images.
-Another payment unlocks the "Daydream" functionality; this only works on Android 4.2 and higher, don't purchase if you have Android 4.1 or lower.
+PhotoCloud is a [free download at Google Play](https://play.google.com/store/apps/details?id=sk.baka.photoframe).
+No ads, no subscription. There are two separate one-time in-app purchases:
 
-To recap, there are two separate one-time purchases possible for this app:
-
-* The “Remove Nagging Screen” purchase which removes the “please purchase” nagging screen;
-* The “Daydream” support purchase which allows Photocloud to be registered as a Daydream service on your phone.
+* The “Remove Nagging Screen” purchase removes the “please purchase” image the free version
+  shows once in a while during the slideshow;
+* The “Daydream” purchase lets PhotoCloud run as the Android screen saver (Daydream), which
+  starts when the device is charging or docked.
 
 The in-app purchases are located in PhotoCloud Settings - simply touch the appropriate item to launch Google Play purchase process.
 If the "Purchase" items are missing, it could be that the In-App Purchases API
@@ -114,43 +107,33 @@ See [Privacy Policy](privacy_policy.html) for more details.
 
 ## Required permissions
 
-- `INTERNET` - to download photos from cloud services
-- `WRITE_EXTERNAL_STORAGE` - to workaround a bug in older Androids to cache photos
-- `GET_ACCOUNTS` - Google Drive; only PhotoCloud 1.15.8 and older ask for it
+- `INTERNET` - to download photos from network and cloud sources, the weather forecast, Chromecast
+- `READ_MEDIA_IMAGES` (Android 13+), `READ_EXTERNAL_STORAGE` (Android 12 and older) - the Local Gallery source;
+  asked for only once you add a Gallery stream
+- `READ_MEDIA_AUDIO` (Android 13+) - the background music; asked for only once you pick a music file
 - `BILLING` - In-app purchases
-- `ACCESS_NETWORK_STATE` - allows PhotoCloud to monitor for WiFi and stop slideshow to avoid cellular network charges
-- `RECEIVE_BOOT_COMPLETED` - to automatically start (if so configured)
-- `ACCESS_WIFI_STATE` - to discover DLNA devices
-- `CHANGE_WIFI_MULTICAST_STATE` - to discover DLNA devices
-- `WAKE_LOCK` - to keep the phone awake during slideshow
+- `ACCESS_NETWORK_STATE` - to wait for Wi-Fi or another unmetered network, avoiding mobile data charges
+- `RECEIVE_BOOT_COMPLETED` - to automatically start the slideshow (if so configured)
+- `ACCESS_WIFI_STATE`, `CHANGE_WIFI_MULTICAST_STATE` - to discover DLNA devices
+- `WAKE_LOCK` - to keep Wi-Fi awake while talking to DLNA devices
+- `FOREGROUND_SERVICE` - Chromecast, and the auto-start service on Android 8-9
+
+PhotoCloud 1.15.8 and older also asked for `WRITE_EXTERNAL_STORAGE` (photo cache on older Androids)
+and `GET_ACCOUNTS` (Google Drive).
 
 # Devices Support
 
-PhotoCloud works best with Android 5 onwards (API level 21). You can install newest PhotoCloud from Google Play.
-
-## Half-supported Devices
-
-In fact the PhotoCloud on Google Play also supports Android 4.4 and higher (API level 19 and higher),
-however on Android 4 you may encounter the "SSL Handshake Aborted" issues (see FAQ for more details), therefore Android 5+ is recommended.
-
-There is an older version of PhotoCloud published on Google Play which also
-supports Android 4.1 (API level 16 and higher), but that older version is not maintained and provided as a "gesture of good will".
-
-Unfortunately, Androids 4.0 and lower are not officially supported at the moment.
-The reason for that is stated in [Issue #105](https://github.com/mvysny/photocloud-frame-slideshow/issues/105).
-
-There is an unofficial build which targets Android 4.0.3 and higher (API level 15 and higher).
-You can [get the APK from this link](https://drive.google.com/drive/folders/1CyngJ0CNVHiDkV_S2mQVAs7dlVQ9nirs?usp=sharing),
-however parts of the app requiring higher Android will simply crash. Such crashes will not be fixed.
+PhotoCloud needs Android 5.0 (API level 21) or newer; it runs on phones and tablets.
+Android 4.x and older are not supported.
 
 ## Unsupported Devices
 
 It has been reported that [in-app payments on the Amazon Fire tablets with Google Play installed do not work](https://groups.google.com/forum/#!topic/photocloud-frame/YGF8EFPA3E4) -
 the payment goes through but the annoying "Please Purchase" image stays. Please do not use PhotoCloud's in-app purchases if you plan to use the app on the Amazon Fire tablet.
 
-Also, *Android TV* is **not** supported; see [bug #198](https://github.com/mvysny/photocloud-frame-slideshow/issues/198) for more details.
-In short: The reason is that, during the upload of the last version to Google Play, Google rejected the update because of some Android TV-related issue and posted a very vague Set of instructions to fix the issue.
-I was unable to figure out what is the issue to be fixed, and Google didn't bother to reply to any of my e-mails.
+Also, *Android TV* is **not** supported at the moment; see [bug #198](https://github.com/mvysny/photocloud-frame-slideshow/issues/198) for more details.
+In short: Google rejected an update because of a vague Android TV requirement and didn't reply to e-mails,
+so PhotoCloud is no longer offered on Android TV in Google Play. You can still show the slideshow on your TV with Chromecast.
 
 # Links
 
@@ -160,4 +143,3 @@ I was unable to figure out what is the issue to be fixed, and Google didn't both
 # FAQ
 
 Located here: [Frequently Asked Questions](faq.html)
-

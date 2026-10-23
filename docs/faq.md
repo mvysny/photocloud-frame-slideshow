@@ -280,8 +280,8 @@ PhotoCloud should always report any payment error as an Android toast, and it sh
 also report "In-app purchase service is not available on this device :(" if Google Play
 is non-functional or completely missing.
 
-Please make sure that you have the newest PhotoCloud installed (1.13.10 currently),
-since newer version may contain in-app-purchases fixes and workarounds.
+Please make sure that you have the newest PhotoCloud installed from Google Play,
+since a newer version may contain in-app-purchases fixes and workarounds.
 
 ## Getting "SSL Handshake Aborted, sslv3 alert handshake failure"
 

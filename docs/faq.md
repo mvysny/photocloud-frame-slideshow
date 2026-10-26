@@ -266,7 +266,10 @@ You can easily find such exceptions simply by searching for `sk.baka.photoframe`
 
 ## Known Issues With Certain Types of Streams
 
-- Flickr shows "This Photo Is No Longer Available". That's because Flickr's API is broken and they don't care: [Flickr shows This Photo Is No Longer Available](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)
+- Flickr: PhotoCloud 1.15.8 and older show "This Photo Is No Longer Available" or skip photos in the
+  slideshow ([bug 47](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)); 1.16.0 fixes that.
+  Since May 2025 Flickr lets apps download a free account's photos at 1024 px at most, so on a free account
+  PhotoCloud shows them at that size; a Flickr Pro account gets the originals.
 
 ## Purchases Not Working On Certain TVs
 

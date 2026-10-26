@@ -110,7 +110,8 @@ See [Privacy Policy](privacy_policy.html) for more details.
 - `INTERNET` - to download photos from network and cloud sources, the weather forecast, Chromecast
 - `READ_MEDIA_IMAGES` (Android 13+), `READ_EXTERNAL_STORAGE` (Android 12 and older) - the Local Gallery source;
   asked for only once you add a Gallery stream
-- `READ_MEDIA_AUDIO` (Android 13+) - the background music; asked for only once you pick a music file
+- `READ_MEDIA_AUDIO` (Android 13+), `READ_EXTERNAL_STORAGE` (Android 12 and older) - the background music;
+  asked for only once you set up background music
 - `BILLING` - In-app purchases
 - `ACCESS_NETWORK_STATE` - to wait for Wi-Fi or another unmetered network, avoiding mobile data charges
 - `RECEIVE_BOOT_COMPLETED` - to automatically start the slideshow (if so configured)

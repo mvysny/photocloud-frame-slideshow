@@ -333,6 +333,24 @@ PhotoCloud versions newer than 1.15.8 bundle both Let's Encrypt roots and trust 
 Android version, so please upgrade. If the error persists, please
 [open an issue](https://github.com/mvysny/photocloud-frame-slideshow/issues) with the full error message.
 
+## Nextcloud or ownCloud not connecting
+
+- **"protocol SSLv3 is not supported"**: PhotoCloud 1.16.0 and older can't connect to a Nextcloud
+  or ownCloud server over https on Android 8 and newer, whatever its certificate. The next release
+  fixes that; until then, only plain http works.
+- **The slideshow freezes when the server stops answering**: PhotoCloud 1.16.0 and older wait for
+  it forever. The next release gives up after a minute and goes on with the cached photos.
+- **Two-factor authentication**: log in with an app password, which you create in your account's
+  security settings on the server.
+- **ownCloud Infinite Scale (oCIS)** lets only its own apps log in by default. PhotoCloud logs in
+  with a user name and password, which oCIS accepts once its admin sets
+  `PROXY_ENABLE_BASIC_AUTH=true`.
+- **A self-signed certificate**: PhotoCloud shows the certificate and asks whether to trust it.
+  From the next release on, it trusts it for that one server only.
+
+The next release also shows photos from any WebDAV server, such as a Synology or QNAP NAS: add a
+"Nextcloud / ownCloud / WebDAV" stream with the URL of the folder.
+
 ## Getting JSchException: failed to send channel request’
 
 This happens when you try to access SSH (secure shell, a secure way to send commands to remote machine) which has SFTP disabled.

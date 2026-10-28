@@ -431,6 +431,9 @@ since:
 * Google Play doesn't allow In-App Products such as "Unlock Daydream" and "Remove the Nagging Please Purchase"
   to be shared between family members.
 
-The only way to remove the nagging "Please Purchase" image is to purchase the In-App Product
-for the same Google user that is logged in to the tablet device intended to serve as a photo frame.
+A purchase unlocks PhotoCloud only for the Google account that made it. To unlock a family member's
+tablet or TV serving as a photo frame, either buy the In-App Product with the Google account logged in
+to that device, or add the buyer's Google account to the device (Android Settings → Accounts → Add account)
+and pick that account in Google Play. See [Issue #151](https://github.com/mvysny/photocloud-frame-slideshow/issues/151)
+for more details.
 

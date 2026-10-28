@@ -160,7 +160,16 @@ Instead:
   Photo frames are rarely restarted, so this is usually enough.
 * Use PhotoCloud as the Android screen saver (Daydream) and let Android start it while charging:
   in Android's Settings / Display / Screen saver, pick PhotoCloud and "While charging". This needs
-  the "Daydream" purchase. Some devices, Samsung and Google TV among them, hide or limit third-party screen savers.
+  the "Daydream" purchase. Some devices, Samsung and Google TV among them, hide or limit third-party screen savers;
+  where Settings doesn't list PhotoCloud or falls back to Clock, pick it over ADB instead
+  ([Issue #179](https://github.com/mvysny/photocloud-frame-slideshow/issues/179),
+  [Issue #156](https://github.com/mvysny/photocloud-frame-slideshow/issues/156)):
+  ```
+  adb shell settings put secure screensaver_components sk.baka.photoframe/.frame.DaydreamService
+  adb shell settings put secure screensaver_enabled 1
+  adb shell settings put secure screensaver_activate_on_sleep 1
+  ```
+  The last line starts it while charging; `adb shell settings get secure screensaver_components` shows the current pick.
 * Use Tasker, which holds the "Display over other apps" permission itself,
   see [Launching PhotoCloud from Tasker](#launching-photocloud-from-tasker) below.
 

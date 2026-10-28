@@ -100,8 +100,8 @@ Open the main screen and touch the lower big white plus button. You will be able
 Touch the upper-right cog wheel *Settings* button in the main screen. You can for example configure to
 start slideshow from a Stream (or a combination of Streams)
 
-* When your device boots;
-* When your power cable is plugged in;
+* When your device boots (Android 9 and older);
+* When your power cable is plugged in (Android 9 and older);
 
 And others.
 
@@ -131,8 +131,10 @@ The definition of "too old" depends on the *Short-Lived Cache* setting:
 
 ## Launching PhotoCloud at boot-up time
 
-When configured, PhotoCloud is able start when your device boots up, turning your device into a photo frame.
-However this tends to be tricky, therefore please make sure to revisit all of the following
+On Android 9 and older, PhotoCloud can start the slideshow when your device boots up, turning your device into a photo frame.
+On Android 10 and newer it can't, see [below](#why-doesnt-photocloud-start-on-boot-on-android-10-and-newer).
+
+On Android 9 and older this tends to be tricky, therefore please make sure to revisit all of the following
 items:
 
 1. In Settings / Slideshow, make sure that the "Auto-start Slideshow on Boot" is checked. Sometimes the Wifi may settle slowly, in that case please just check
@@ -143,9 +145,27 @@ and the app will not start. This is a built-in Android security measurement and 
 Typically you open the list of installed apps, find PhotoCloud and you can find the permissions there. However, this may differ on certain phones; please follow your phone's permission manager
 tutorial to review the permissions.
 
-NOTE: On Android 10 and newer, PhotoCloud currently can't start the slideshow on boot-up or when the power cable is plugged in:
-Android blocks apps from opening a screen while they run in the background. Until PhotoCloud fixes that, use Tasker instead,
-see [Launching PhotoCloud from Tasker](#launching-photocloud-from-tasker) below. Please see
+### Why doesn't PhotoCloud start on boot on Android 10 and newer?
+
+Android 10 and newer block apps from opening a screen while they run in the background, and an app
+woken up by the boot runs in the background. The only way around it is the "Display over other apps"
+permission. PhotoCloud never draws over other apps, and that permission is a favourite of scam apps, so
+PhotoCloud doesn't ask for it. That's why the "Auto-start Slideshow on Boot" settings are greyed out
+on Android 10 and newer.
+
+Instead:
+
+* After a restart, touch the *Slideshow* launcher icon (the second PhotoCloud icon). It starts the slideshow
+  of the streams picked in Settings / Slideshow / "Auto-start Stream List" (all streams if none are picked).
+  Photo frames are rarely restarted, so this is usually enough.
+* Use PhotoCloud as the Android screen saver (Daydream) and let Android start it while charging:
+  in Android's Settings / Display / Screen saver, pick PhotoCloud and "While charging". This needs
+  the "Daydream" purchase. Some devices, Samsung and Google TV among them, hide or limit third-party screen savers.
+* Use Tasker, which holds the "Display over other apps" permission itself,
+  see [Launching PhotoCloud from Tasker](#launching-photocloud-from-tasker) below.
+
+Starting the slideshow when the power cable is plugged in doesn't work on Android 10 and newer either, for the same
+reason; the screen saver and Tasker work there too. Please see
 [Issue #176](https://github.com/mvysny/photocloud-frame-slideshow/issues/176) and
 [Issue #185](https://github.com/mvysny/photocloud-frame-slideshow/issues/185) for more details.
 

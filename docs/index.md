@@ -42,7 +42,7 @@ so your photos never have to leave your home.
 - Moments: show only photos from a date range, or older photos less often
 - Background music from the device
 - Day and night brightness and dimming
-- Starts automatically on boot or when the charger is connected
+- Starts automatically on boot or when the charger is connected (Android 9 and older; see the [FAQ](faq.html#launching-photocloud-at-boot-up-time))
 - Browse the photos of a source by hand
 - Cast the slideshow to your TV with Chromecast
 - Works as the Android screen saver (Daydream)
@@ -114,7 +114,7 @@ See [Privacy Policy](privacy_policy.html) for more details.
   asked for only once you set up background music
 - `BILLING` - In-app purchases
 - `ACCESS_NETWORK_STATE` - to wait for Wi-Fi or another unmetered network, avoiding mobile data charges
-- `RECEIVE_BOOT_COMPLETED` - to automatically start the slideshow (if so configured)
+- `RECEIVE_BOOT_COMPLETED` - to automatically start the slideshow on boot (if so configured; Android 9 and older)
 - `ACCESS_WIFI_STATE`, `CHANGE_WIFI_MULTICAST_STATE` - to discover DLNA devices
 - `WAKE_LOCK` - to keep Wi-Fi awake while talking to DLNA devices
 - `FOREGROUND_SERVICE` - Chromecast, and the auto-start service on Android 8-9

@@ -368,7 +368,8 @@ Android version, so please upgrade. If the error persists, please
   From the next release on, it trusts it for that one server only.
 
 The next release also shows photos from any WebDAV server, such as a Synology or QNAP NAS: add a
-"Nextcloud / ownCloud / WebDAV" stream with the URL of the folder.
+"Nextcloud / ownCloud / WebDAV" stream with the URL of the folder. For Synology, see
+[Synology NAS & Synology Photos](#synology-nas--synology-photos).
 
 ## Getting JSchException: failed to send channel request’
 
@@ -376,7 +377,34 @@ This happens when you try to access SSH (secure shell, a secure way to send comm
 SFTP stands for Secure File Transfer Protocol, works over SSH, and without it, SSH can not transfer files.
 Please make sure SFTP is enabled on your server.
 
-## Synology Diskstation & DLNA
+## Synology NAS & Synology Photos
+
+Synology offers no public API for Synology Photos, but Synology Photos keeps its photos in ordinary
+folders on the NAS, and PhotoCloud can show them straight from those folders.
+
+### Over WebDAV (the release after 1.16.0)
+
+1. On the NAS, open **Package Center**, install **WebDAV Server**, open it and enable **HTTPS**
+   (port 5006). HTTP (port 5005) works too, but sends your password unencrypted.
+2. Make sure the DSM user PhotoCloud logs in as can read the folder. PhotoCloud never changes
+   anything, so a separate user with read-only access is enough.
+3. In PhotoCloud, add a **Nextcloud / ownCloud / WebDAV** stream with the URL of the folder and that
+   user's name and password:
+   - Synology Photos **Shared Space**: `https://<NAS address>:5006/photo`
+   - Synology Photos **Personal Space**: `https://<NAS address>:5006/home/Photos`
+   - any subfolder, e.g. `https://192.168.1.10:5006/photo/2024`
+4. The NAS has a self-signed certificate by default: PhotoCloud shows it and asks whether to trust
+   it, and then trusts it for that one server only.
+
+PhotoCloud sees folders, not Synology Photos albums: an album lives only in Synology Photos' own
+database, which WebDAV doesn't expose. Keep each album in its own folder to get the same result.
+
+### Over Samba or SFTP
+
+PhotoCloud 1.16.0 and older can read the same folders over Samba (DSM: Control Panel → File
+Services → SMB) or SFTP (Control Panel → File Services → FTP → SFTP).
+
+### Synology & DLNA
 
 Some users received "Synology DS218j DS218j 6.2-25556 does not provide content directory and is thus not browsable for photos"
 when accessing Synology Diskstation via DLNA. The problem is that Synology doesn't offer the `urn:schemas-upnp-org:service:ContentDirectory:*`

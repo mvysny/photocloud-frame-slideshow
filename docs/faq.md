@@ -165,7 +165,8 @@ Instead:
   see [Launching PhotoCloud from Tasker](#launching-photocloud-from-tasker) below.
 
 Starting the slideshow when the power cable is plugged in doesn't work on Android 10 and newer either, for the same
-reason; the screen saver and Tasker work there too. Please see
+reason, so "Auto-start Slideshow on Power Connected" is greyed out there too; the screen saver and Tasker work there.
+"Auto-stop Slideshow on Power Disconnected" works on every Android version. Please see
 [Issue #176](https://github.com/mvysny/photocloud-frame-slideshow/issues/176) and
 [Issue #185](https://github.com/mvysny/photocloud-frame-slideshow/issues/185) for more details.
 

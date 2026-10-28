@@ -288,12 +288,12 @@ since a newer version may contain in-app-purchases fixes and workarounds.
 
 ## Getting "SSL Handshake Aborted, sslv3 alert handshake failure"
 
-This issue occurs on devices running Android 4.4 when trying to connect over https to a TLS1.2-based server,
-since Android 4.4 devices usually do not support new TLS1.2 standard.
+This error comes from PhotoCloud 1.14.x running on Android 4.4, when it connects over https to a
+server that accepts only TLS1.2 or newer: Android 4.4 doesn't enable TLS1.2 for apps.
 
-Unfortunately
-this is not something PhotoCloud can work around since this lack of feature is deep within Android code itself.
-The solution is to either disable https on your OwnCloud/NextCloud server, or use a newer device.
+PhotoCloud 1.15.0 and newer require Android 5.0, which enables TLS1.2 by default, so a supported
+device no longer gets this error. On Android 4.4 the solution is to either use plain http to your
+OwnCloud/NextCloud server, or use a newer device.
 
 Please read more at [Nextcloud connecton failes with SSLv3 error](https://github.com/mvysny/photocloud-frame-slideshow/issues/123).
 
@@ -309,12 +309,10 @@ error 14077410:SSL routines: SSL23_GET_SERVER_HELLO:sslv3 alert handshake failur
 ```
 
 You can get the same exception in the Weather widget: "Err SSLHandshakeException Handshake Failed".
-This exception started to manifest in roughly July 2023. The reason is that OpenWeatherMap
-(the source of weather site for PhotoCloud) recently dropped support for TLS1.1, however your
-TV/Android device most probably runs older Android version which doesn’t support TLS1.2.
-
-There's nothing we can do. You have to upgrade Android to newer, or buy a new device.
-You can for example buy an Android TV box which are running newer Android.
+This exception started to manifest in roughly July 2023, when OpenWeatherMap
+(the source of weather data for PhotoCloud) dropped support for TLS1.1, which hit Android 4.4
+devices. On Android 5.0 and newer, the weather's handshake failure is most likely the
+"Trust anchor" one below, which a newer PhotoCloud fixes.
 
 Also see the [Discussion Thread](https://groups.google.com/g/photocloud-frame/c/ERYc2cXnx2I) for more details.
 

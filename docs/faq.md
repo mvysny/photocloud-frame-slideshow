@@ -297,7 +297,7 @@ You can easily find such exceptions simply by searching for `sk.baka.photoframe`
 ## Known Issues With Certain Types of Streams
 
 - Flickr: PhotoCloud 1.16.0 and older show "This Photo Is No Longer Available" or skip photos in the
-  slideshow ([bug 47](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)); the next release fixes that.
+  slideshow ([bug 47](https://github.com/mvysny/photocloud-frame-slideshow/issues/47)); PhotoCloud 1.17.0 fixes that.
   Since May 2025 Flickr lets apps download a free account's photos at 1024 px at most, so on a free account
   PhotoCloud shows them at that size; a Flickr Pro account gets the originals.
 
@@ -364,19 +364,19 @@ Android version, so please upgrade. If the error persists, please
 ## Nextcloud or ownCloud not connecting
 
 - **"protocol SSLv3 is not supported"**: PhotoCloud 1.16.0 and older can't connect to a Nextcloud
-  or ownCloud server over https on Android 8 and newer, whatever its certificate. The next release
-  fixes that; until then, only plain http works.
+  or ownCloud server over https on Android 8 and newer, whatever its certificate; only plain http works there.
+  PhotoCloud 1.17.0 fixes that.
 - **The slideshow freezes when the server stops answering**: PhotoCloud 1.16.0 and older wait for
-  it forever. The next release gives up after a minute and goes on with the cached photos.
+  it forever. PhotoCloud 1.17.0 gives up after a minute and goes on with the cached photos.
 - **Two-factor authentication**: log in with an app password, which you create in your account's
   security settings on the server.
 - **ownCloud Infinite Scale (oCIS)** lets only its own apps log in by default. PhotoCloud logs in
   with a user name and password, which oCIS accepts once its admin sets
   `PROXY_ENABLE_BASIC_AUTH=true`.
 - **A self-signed certificate**: PhotoCloud shows the certificate and asks whether to trust it.
-  From the next release on, it trusts it for that one server only.
+  From PhotoCloud 1.17.0 on, it trusts it for that one server only.
 
-The next release also shows photos from any WebDAV server, such as a Synology or QNAP NAS: add a
+PhotoCloud 1.17.0 also shows photos from any WebDAV server, such as a Synology or QNAP NAS: add a
 "Nextcloud / ownCloud / WebDAV" stream with the URL of the folder. For Synology, see
 [Synology NAS & Synology Photos](#synology-nas--synology-photos).
 
@@ -391,7 +391,7 @@ Please make sure SFTP is enabled on your server.
 Synology offers no public API for Synology Photos, but Synology Photos keeps its photos in ordinary
 folders on the NAS, and PhotoCloud can show them straight from those folders.
 
-### Over WebDAV (the release after 1.16.0)
+### Over WebDAV (PhotoCloud 1.17.0 and newer)
 
 1. On the NAS, open **Package Center**, install **WebDAV Server**, open it and enable **HTTPS**
    (port 5006). HTTP (port 5005) works too, but sends your password unencrypted.

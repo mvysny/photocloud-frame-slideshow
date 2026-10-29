@@ -10,8 +10,8 @@ and your cloud storage. No fluff, no bloat: an old-school app that is simple to 
 
 Shows photos from any combination of these sources:
 - Local Gallery (photos on the device)
-- [ownCloud](https://owncloud.com/)/[Nextcloud](https://nextcloud.com/) server,
-  even with a self-signed https certificate
+- [Nextcloud](https://nextcloud.com/)/[ownCloud](https://owncloud.com/) and other WebDAV servers
+  (such as a Synology or QNAP NAS), even with a self-signed https certificate
 - Windows shares (Samba / SMB)
 - SSH / SFTP servers
 - DLNA / UPnP media servers
@@ -28,7 +28,7 @@ such as FolderSync, then adding the synced folder to PhotoCloud;
 see [this PhotoCloud mailing list thread](https://groups.google.com/g/photocloud-frame/c/EcH-pL4qprE).
 
 Respects your privacy: PhotoCloud only reads your photos; it never changes, uploads or deletes
-them. It is one of the few photo frame apps that work with your own Nextcloud/ownCloud server
+them. It is one of the few photo frame apps that work with your own Nextcloud/ownCloud or WebDAV server
 (including self-signed https certificates), your own SFTP server or the photos on your Windows PC,
 so your photos never have to leave your home.
 
@@ -42,7 +42,7 @@ so your photos never have to leave your home.
 - Moments: show only photos from a date range, or older photos less often
 - Background music from the device
 - Day and night brightness and dimming
-- Starts automatically on boot or when the charger is connected (Android 9 and older; see the [FAQ](faq.html#launching-photocloud-at-boot-up-time))
+- Starts automatically on boot or when the charger is connected (Android 9 and older; see the [FAQ](faq.html#launching-photocloud-at-boot-up-time)), stops when the charger is disconnected
 - Browse the photos of a source by hand
 - Cast the slideshow to your TV with Chromecast
 - Works as the Android screen saver (Daydream)

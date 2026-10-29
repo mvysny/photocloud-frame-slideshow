@@ -422,6 +422,18 @@ and let me know.
 
 Known workaround is to access your photos over SSH instead; please make sure to also enable SFTP as discussed above.
 
+**Large photos look blurry over DLNA.** The Media Server may be sending a scaled-down copy:
+
+1. In DSM, open **Media Server → Browsing Settings** and turn off **Transmit low resolution
+   images instead of the original images**.
+2. Under **DMA Compatibility → Device List**, find the device running PhotoCloud and give it the
+   **Default Profile**.
+
+PhotoCloud 1.16.0 and older also picked a copy smaller than the screen when the photo was much
+larger than it; the release after 1.16.0 picks the smallest copy that still fills the screen. If
+photos still look blurry, use [WebDAV](#over-webdav-the-release-after-1160) instead: it always
+downloads the original photo.
+
 ## Gallery not working
 
 The "Folders" and "Moments" feature uses an internal filtering/photo retrieval mechanism of

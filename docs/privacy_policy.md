@@ -5,9 +5,10 @@ PhotoCloud Frame Slideshow may remember your username/password for services whic
 solely for the purpose of authenticating and downloading images. Images are downloaded to your phone only,
 they are never uploaded anywhere. The images are cached for quicker display, you can delete the caches at any time.
 
-PhotoCloud uploads warning and error messages anonymously to Crashlytic, for the sole purpose of helping bug fixing.
-Those error messages never contain any username nor password. Other than that, PhotoCloud uploads nothing nowhere else,
-except for the sole purpose of downloading images (you have to let the server know that you wish to download given image) :-D
+PhotoCloud collects no analytics and sends no crash reports. It talks only to the photo sources you configure,
+to sign in and download your photos, and, if you turn on the weather overlay, to look up your city
+(the name you type goes to PhotoCloud's own city-search server) and to fetch its forecast from OpenWeatherMap.
+Nothing else leaves your device.
 
 ## Google-specific Privacy Policy
 

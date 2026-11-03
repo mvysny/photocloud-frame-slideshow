@@ -138,8 +138,7 @@ so PhotoCloud is no longer offered on Android TV in Google Play. You can still s
 
 # Links
 
-* [Discussions forums](https://groups.google.com/forum/#!forum/photocloud-frame)
-* [Bugs, issues, feature requests](https://github.com/mvysny/photocloud-frame-slideshow/issues)
+* [Questions, bugs, issues, feature requests](https://github.com/mvysny/photocloud-frame-slideshow/issues)
 
 # FAQ
 

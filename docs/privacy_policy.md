@@ -10,6 +10,10 @@ to sign in and download your photos, and, if you turn on the weather overlay, to
 (the name you type goes to PhotoCloud's own city-search server) and to fetch its forecast from OpenWeatherMap.
 Nothing else leaves your device.
 
+Requests about your personal data under the GDPR (access, deletion and the like) go to
+[support@android-photo-frame.eu](mailto:support@android-photo-frame.eu). For anything else, please use the
+[issue tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+
 ## Google-specific Privacy Policy
 
 PhotoCloud versions newer than 1.15.8 no longer read Google Drive nor Google Photos, and use no Google API to access your data.

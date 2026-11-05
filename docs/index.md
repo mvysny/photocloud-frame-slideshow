@@ -105,6 +105,10 @@ Offline Licenses are no longer available. PhotoCloud is only available on Google
 
 See [Privacy Policy](privacy_policy.html) for more details.
 
+# Terms of Service
+
+See [Terms of Service](terms.html).
+
 ## Required permissions
 
 - `INTERNET` - to download photos from network and cloud sources, the weather forecast, Chromecast

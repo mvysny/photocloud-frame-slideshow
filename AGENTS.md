@@ -27,6 +27,7 @@ Every fact lives in exactly one of these; the others link to it.
 - `docs/` — the GitHub Pages site at www.android-photo-frame.eu (`CNAME`), Jekyll theme `leap-day` (`_config.yml`).
 - `docs/index.md` — home page: sources, features, pricing, permissions, supported devices.
 - `docs/faq.md` — the FAQ, one `##` heading per question.
+- `docs/terms.md` — the Terms of Service, linked from Google Play's trader declaration.
 - `docs/privacy_policy.md` — the privacy policy, linked from Google Play.
 - `docs/images/` — screenshots and the Google Play badge.
 - `.github/ISSUE_TEMPLATE.md` — the text prefilled into every new GitHub issue.

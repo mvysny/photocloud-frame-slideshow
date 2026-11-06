@@ -4,6 +4,8 @@ Android Digital Frame App for Tablet and Phone.
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
 
+On an Amazon Fire tablet: [PhotoCloud on the Amazon Appstore](https://www.amazon.com/gp/product/B0HPVCRFGQ).
+
 Turn an old Android tablet or phone into a digital photo frame. Sit back and watch your photos
 with your family: PhotoCloud shows a slideshow of photos from your own devices, your home network
 and your cloud storage. No fluff, no bloat: an old-school app that is simple to use and just works.
@@ -97,9 +99,22 @@ the "In-App Purchases API available:" line. If it says "false", then unfortunate
 
 In such case please don't use in-app purchases.
 
+### Amazon Fire tablets
+
+Fire tablets have no Google Play, so on a Fire tablet get PhotoCloud from the
+[Amazon Appstore](https://www.amazon.com/gp/product/B0HPVCRFGQ) instead. There it is a paid app
+(€4.99 or the local equivalent) with everything unlocked: no nagging screen, Daydream included, no
+in-app purchases. The purchase follows your Amazon account, so it reinstalls for free on your
+other Fire tablets. Chromecast is not available in the Amazon version, as Fire OS lacks Google's
+casting services.
+
+A purchase in one store doesn't carry over to the other: a Google Play purchase doesn't unlock
+the Amazon version, nor the other way round.
+
 ## Offline Licenses
 
-Offline Licenses are no longer available. PhotoCloud is only available on Google Play.
+Offline Licenses are no longer available. PhotoCloud is available on Google Play and, for Fire
+tablets, on the Amazon Appstore.
 
 # Privacy Policy
 
@@ -134,7 +149,9 @@ Android 4.x and older are not supported.
 ## Unsupported Devices
 
 It has been reported that [in-app payments on the Amazon Fire tablets with Google Play installed do not work](https://groups.google.com/forum/#!topic/photocloud-frame/YGF8EFPA3E4) -
-the payment goes through but the annoying "Please Purchase" image stays. Please do not use PhotoCloud's in-app purchases if you plan to use the app on the Amazon Fire tablet.
+the payment goes through but the annoying "Please Purchase" image stays. On a Fire tablet,
+please get PhotoCloud from the [Amazon Appstore](https://www.amazon.com/gp/product/B0HPVCRFGQ)
+instead (see [Amazon Fire tablets](#amazon-fire-tablets)).
 
 Also, *Android TV* is **not** supported at the moment; see [bug #198](https://github.com/mvysny/photocloud-frame-slideshow/issues/198) for more details.
 In short: Google rejected an update because of a vague Android TV requirement and didn't reply to e-mails,

@@ -3,8 +3,7 @@
 Android Digital Frame App for Tablet and Phone.
 
 <a href="https://play.google.com/store/apps/details?id=sk.baka.photoframe"><img src="images/google-play-badge.png"  height="60px" /></a>
-
-On an Amazon Fire tablet: [PhotoCloud on the Amazon Appstore](https://www.amazon.com/gp/product/B0HPVCRFGQ).
+<a href="https://www.amazon.com/gp/product/B0HPVCRFGQ"><img src="images/amazon-appstore-badge.png" alt="Available at Amazon Appstore, for Fire tablets" height="60px" /></a>
 
 Turn an old Android tablet or phone into a digital photo frame. Sit back and watch your photos
 with your family: PhotoCloud shows a slideshow of photos from your own devices, your home network

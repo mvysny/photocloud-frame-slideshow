@@ -28,7 +28,8 @@ and so does OpenWeatherMap when you turn on the weather overlay.
 In-app purchases are bought and paid for through Google Play, under Google Play's terms.
 PhotoCloud bought from another store, such as the Amazon Appstore, is sold under that store's
 terms. Refunds are requested through the store you bought from; if the store can't resolve your
-case, please open an issue in the [issue tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+case, write to [support@android-photo-frame.eu](mailto:support@android-photo-frame.eu), since a
+refund case carries your order details, which don't belong in a public tracker.
 
 The offline license keys sold earlier keep working with the last version of the app that takes
 them; no new keys are issued.
@@ -61,4 +62,4 @@ These terms may change. The current version is always on this page, with its dat
 Finnish law applies. If you are a consumer, you keep the protection that the law of your country
 of residence gives you.
 
-Last updated: 2026-11-05
+Last updated: 2026-11-08

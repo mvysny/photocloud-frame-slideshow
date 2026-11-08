@@ -40,8 +40,8 @@ Every fact lives in exactly one of these; the others link to it.
 - **Links between pages use the built name** (`faq.html`, `privacy_policy.html`); images are relative (`images/x.jpg`).
 - **The author's voice is first person singular** — "I", not "we".
 - **Contact is the GitHub issue tracker.** The support e-mail Google Play shows exists because
-  Play and EU trader status demand one; only the privacy policy names it, for GDPR requests,
-  which don't belong in a public tracker.
+  Play and EU trader status demand one; only the privacy policy and the Terms name it, for GDPR
+  and refund requests, which don't belong in a public tracker.
 
 ## Commands
 

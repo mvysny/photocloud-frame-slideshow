@@ -68,11 +68,19 @@ payment data is covered by the [Google Privacy Policy](https://policies.google.c
 PhotoCloud from the Amazon Appstore is paid for up front, in Amazon's store and under Amazon's
 privacy notice; the app checks nothing about the purchase online.
 
+{% comment %}
+Google's own disclosure for the Cast sender SDK (play-services-cast, googlePlay flavor only):
+https://developers.google.com/cast/docs/android_sender/data_disclosure, read 2026-11-10. It logs
+anonymized Cast device interactions, discovery and session events, device and app info, to
+Google, encrypted, with no opt-out. Play's Data safety form declares it as App interactions.
+{% endcomment %}
 ## Chromecast
 
 In PhotoCloud from Google Play, when you cast, the slideshow streams from your device to the
-Chromecast you pick, over your local network, through Google Play services. The
-[Google Privacy Policy](https://policies.google.com/privacy) covers casting.
+Chromecast you pick, over your local network, through Google Play services. Google's casting
+library also sends Google anonymized usage data, such as which Chromecasts were found and when a
+cast started, to improve casting. The [Google Privacy Policy](https://policies.google.com/privacy)
+covers casting.
 
 ## Everything Else Stays on Your Device
 
@@ -99,4 +107,4 @@ versions use no Google API to access your data.
 
 When this policy changes, the new version is published on this page, with its date.
 
-Last updated: 2026-11-07
+Last updated: 2026-11-10

@@ -45,7 +45,7 @@ so your photos never have to leave your home.
 - Day and night brightness and dimming
 - Starts automatically on boot or when the charger is connected (Android 9 and older; see the [FAQ](faq.html#launching-photocloud-at-boot-up-time)), stops when the charger is disconnected
 - Browse the photos of a source by hand
-- Cast the slideshow to your TV with Chromecast
+- Cast the slideshow to your TV with Chromecast (Android 13 and older)
 - Works as the Android screen saver (Daydream)
 
 Supported image types:
@@ -154,7 +154,7 @@ instead (see [Amazon Fire tablets](#amazon-fire-tablets)).
 
 Also, *Android TV* is **not** supported at the moment; see [bug #198](https://github.com/mvysny/photocloud-frame-slideshow/issues/198) for more details.
 In short: Google rejected an update because of a vague Android TV requirement and didn't reply to e-mails,
-so PhotoCloud is no longer offered on Android TV in Google Play. You can still show the slideshow on your TV with Chromecast.
+so PhotoCloud is no longer offered on Android TV in Google Play. You can still show the slideshow on your TV with Chromecast, from a phone or tablet with Android 13 or older.
 
 # Links
 

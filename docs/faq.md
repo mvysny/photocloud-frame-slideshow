@@ -2,7 +2,10 @@
 
 ## ChromeCast icon not shown
 
-When you start the slideshow, just touch the image, to pause the slideshow and to reveal more controls:
+On Android 14 and newer, PhotoCloud 1.18.0 and newer don't offer casting: it crashed there. If you
+need it, please say so on the [issue tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
+
+On older Android, when you start the slideshow, just touch the image, to pause the slideshow and to reveal more controls:
 
 <a href="images/chromecast.jpg"><img src="images/chromecast.jpg" width="180px"></a>
 

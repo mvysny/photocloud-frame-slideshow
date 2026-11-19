@@ -43,9 +43,9 @@ Troubleshooting:
 * If the nagging screen still shows, maybe the purchase hasn't been registered
   in PhotoCloud correctly - please try to reboot your phone.
 * To verify the purchase, launch PhotoCloud and go into the `Settings / About` and scroll
-  the About screen to the bottom:
-  * The "In-App Purchases API available" should be set to
-    "true" (if not, then Google Play is not available on your device)
+  the About screen to the bottom, to the line "Unlocked Nagging Dialog: …, for sale: …":
+  * "Unlocked Nagging Dialog: false, for sale: false" means that Google Play is not available on your device.
+    PhotoCloud 1.16.0 and older show this as "In-App Purchases API available: false", on a line of its own.
   * "Unlocked Nagging Dialog" should be set to "true". If not, then Google
     Play is errorneously informing PhotoCloud that the purchase
     hasn't been completed. In this case the problem is in Google Play and/or Google internal systems,

@@ -40,7 +40,8 @@ so your photos never have to leave your home.
 - Photos are cached on the device; when offline, the slideshow goes on from the cache
 - Clock, date, battery status and weather forecast on screen
 - Shows EXIF data, the file name and where the photo was taken
-- Moments: show only photos from a date range, or older photos less often
+- Moments: show only photos from a date range
+- Show photos more than 6 months old less often
 - Background music from the device
 - Day and night brightness and dimming
 - Starts automatically on boot or when the charger is connected (Android 9 and older; see the [FAQ](faq.html#launching-photocloud-at-boot-up-time)), stops when the charger is disconnected

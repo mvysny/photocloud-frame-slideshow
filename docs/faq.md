@@ -234,9 +234,15 @@ it beats having PhotoCloud crashing all the time.
 
 ## Reporting crashes
 
-PhotoCloud logs what it is doing, to a standard Android log. If PhotoCloud does not work properly or keeps crashing,
+If PhotoCloud does not work properly or keeps crashing,
 please open a bug report at [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
-During our conversation, I may ask for a log produced by PhotoCloud. Please follow the following steps to obtain the crash stack trace:
+
+PhotoCloud newer than 1.18.0 remembers its last crash: open `Settings` / `About PhotoCloud`, tap `Copy`
+under *Last Crash*, and paste it into your bug report. It names your PhotoCloud version, Android
+version and device model; the error message in it may name one of your photos' files.
+
+PhotoCloud also logs what it is doing, to a standard Android log. With PhotoCloud 1.18.0 and older, or when the crash
+doesn't show in About, I may ask for that log. Please follow the following steps to obtain the crash stack trace:
 
 * [Enable debugging mode on your phone](https://developer.android.com/studio/debug/dev-options) or google for "android enable debug mode" for your phone
 * Connect your phone via the USB cable with your computer

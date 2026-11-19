@@ -5,9 +5,9 @@ device. Also, everybody will benefit from the fixed bug or a new feature.
 Since the Google Play revenue is just peanuts, please consider posting a bounty on the
 bug. Posting a bounty drastically reduces the fix time.
 
-PhotoCloud includes an automatized bug reporting system, so it is possible that I
-already have a bug report and I'm working on a fix. Yet, still please feel free to
-create a bug and attach a screenshot of the bug, and steps which lead to the bug.
+Please attach a screenshot of the bug, and steps which lead to the bug. If PhotoCloud
+crashed, please paste its crash report too: `Settings` / `About PhotoCloud`, `Copy` under
+*Last Crash* (PhotoCloud newer than 1.18.0).
 
 Please, if the issue is fixed for you, I urge you to change the rating. One-star
 ratings discourage new users from using PhotoCloud. That means less bugs reported and

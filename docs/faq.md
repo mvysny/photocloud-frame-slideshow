@@ -124,6 +124,16 @@ To remove all widgets, please make sure all of the following settings are off:
 
 See [Issue 119](https://github.com/mvysny/photocloud-frame-slideshow/issues/119) for more details.
 
+### Making The Widgets Bigger Or Smaller
+
+In the PhotoCloud release after 1.18.0, *Settings / Widgets/HUD / Text Size* resizes the clock, the
+weather forecast and the EXIF box together, from *XS* (half the normal size) to *XXL* (almost
+three times it). *Medium* is the normal size. Pick a bigger size for a frame viewed from across
+the room, or a smaller one to cover less of the photo on a big TV.
+
+*Settings / Widgets/HUD / EXIF Box Width* widens the EXIF box, so that longer folder names fit.
+At big text sizes on a phone, the clock may take the whole width and hide the EXIF box.
+
 ### Photo Cache Explained
 
 When launching a slideshow, a photo is downloaded from the server only if there's

@@ -52,8 +52,13 @@ Troubleshooting:
     and you need to contact the Google guys to verify that the purchase went through.
     They take 30% off of PhotoCloud price, and thus they are paid to solve such issues -
     just go there and complain.
-* If the "Unlocked Nagging Dialog" is "true" then PhotoCloud knows you've done the
-  purchase and it is a bug if PhotoCloud still shows the nagging screen. In that case, please open
+* If the "Unlocked Nagging Dialog" is "true" yet the slideshow shows the nagging screen, the slideshow
+  most likely started before Google Play confirmed your purchase, which can happen right after a
+  reinstall or a reboot. PhotoCloud 1.18.0 and older then keep nagging until the slideshow restarts:
+  leave the slideshow with the Back button (not Home) and start it again. Newer versions stop
+  nagging as soon as Google Play confirms the purchase
+  ([bug 188](https://github.com/mvysny/photocloud-frame-slideshow/issues/188)).
+  If the nagging screen still shows after that, please open
   a bug report in the [PhotoCloud Bug Tracker](https://github.com/mvysny/photocloud-frame-slideshow/issues).
 * If the "Unlocked Nagging Dialog" is "false", please make sure that your user is still logged in into Google Play.
   For example, someone else could have logged in into your TV. Also, please make sure that

@@ -24,6 +24,19 @@ deletes your photos. Each service you connect keeps its own privacy policy.
 Downloaded photos and their thumbnails are cached on your device for quicker display. Android may
 clear the cache at any time, and so may you, in Android's settings for the app.
 
+## Where Your Photos Were Taken
+
+When a photo carries the place it was taken, its GPS position in the photo's EXIF data,
+PhotoCloud shows the city and country below it. To find them, it hands the position to your
+device's geocoder, the address lookup Android provides. On most devices that is part of Google
+Play services, which looks the position up on Google's servers, under the
+[Google Privacy Policy](https://policies.google.com/privacy). A device without a geocoder shows
+no place.
+
+Android 10 and newer hide the position of the photos stored on your device from apps without
+the media-location permission. PhotoCloud asks for it together with access to your photos, in
+the same dialog; PhotoCloud 1.18.0 and older don't ask for it.
+
 {% comment %}
 All of it is in streamsources.dat, in the app's files dir (StreamSource.kt). The manifest has
 allowBackup="true" and no backup rules, so Auto Backup and device-to-device transfer include it.
@@ -107,4 +120,4 @@ versions use no Google API to access your data.
 
 When this policy changes, the new version is published on this page, with its date.
 
-Last updated: 2026-11-10
+Last updated: 2026-11-25

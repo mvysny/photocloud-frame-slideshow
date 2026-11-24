@@ -129,6 +129,8 @@ See [Terms of Service](terms.html).
 - `INTERNET` - to download photos from network and cloud sources, the weather forecast, Chromecast
 - `READ_MEDIA_IMAGES` (Android 13+), `READ_EXTERNAL_STORAGE` (Android 12 and older) - the Local Gallery source;
   asked for only once you add a Gallery stream
+- `ACCESS_MEDIA_LOCATION` (Android 10+) - to show where a Local Gallery photo was taken; granted
+  together with the above
 - `READ_MEDIA_AUDIO` (Android 13+), `READ_EXTERNAL_STORAGE` (Android 12 and older) - the background music;
   asked for only once you set up background music
 - `BILLING` - In-app purchases
@@ -139,7 +141,8 @@ See [Terms of Service](terms.html).
 - `FOREGROUND_SERVICE` - Chromecast, and the auto-start service on Android 8-9
 
 PhotoCloud 1.15.8 and older also asked for `WRITE_EXTERNAL_STORAGE` (photo cache on older Androids)
-and `GET_ACCOUNTS` (Google Drive).
+and `GET_ACCOUNTS` (Google Drive). PhotoCloud 1.18.0 and older don't ask for `ACCESS_MEDIA_LOCATION`,
+so on Android 10+ they show no place for Local Gallery photos.
 
 # Devices Support
 

@@ -103,7 +103,7 @@ In such case please don't use in-app purchases.
 
 Fire tablets have no Google Play, so on a Fire tablet get PhotoCloud from the
 [Amazon Appstore](https://www.amazon.com/gp/product/B0HPVCRFGQ) instead. There it is a paid app
-(€4.99 or the local equivalent) with everything unlocked: no nagging screen, Daydream included, no
+(€8.99 or the local equivalent) with everything unlocked: no nagging screen, Daydream included, no
 in-app purchases. The purchase follows your Amazon account, so it reinstalls for free on your
 other Fire tablets. Chromecast is not available in the Amazon version, as Fire OS lacks Google's
 casting services.

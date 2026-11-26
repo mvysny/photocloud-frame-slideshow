@@ -29,6 +29,7 @@ Every fact lives in exactly one of these; the others link to it.
 - `docs/faq.md` — the FAQ, one `##` heading per question.
 - `docs/terms.md` — the Terms of Service, linked from Google Play's trader declaration.
 - `docs/privacy_policy.md` — the privacy policy, linked from Google Play.
+- `docs/assets/css/style.scss` — imports the theme's stylesheet and enlarges its 14px text.
 - `docs/images/` — screenshots and the Google Play badge.
 - `.github/ISSUE_TEMPLATE.md` — the text prefilled into every new GitHub issue.
 

@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// The theme's 14px text reads small; the text and its headings scale up by about 1.2.
+// The header title, the fixed yellow banner and the fixed left menu keep the theme's sizes:
+// the FAQ's menu already runs past the bottom of the screen.
+body {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1 { font-size: 34px; }
+h2 { font-size: 29px; }
+h3 { font-size: 22px; line-height: 1.3; }
+
+code { font-size: 15px; }
+small { font-size: 14px; }
+a small { font-size: 13px; }
+kbd { font-size: 13px; line-height: 12px; }
+
+header p { font-size: 20px; }
+
+@media print {
+  body { font-size: 12pt; }
+}
